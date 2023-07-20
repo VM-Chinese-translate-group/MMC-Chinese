@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_bmc_fabric_1192"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "patchouli:textures/items/book_blue.png"
+		}
+	}
+	id: "3E34934F09B08365"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{chapter.1.quest.1.description.1}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:book"
+				tag: {
+					Enchantments: [{
+						id: "aqua_affinity"
+						lvl: 1
+					}]
+				}
+			}
+			id: "6A52090D6BC064D7"
+			rewards: [{
+				count: 3
+				id: "57BF2196D5016192"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "{chapter.1.quest.1.subtitle}"
+			tasks: [{
+				id: "1B0800437C68C43A"
+				title: "{chapter.1.quest.1.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.1.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: ["{chapter.1.quest.2.description.1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "2958CA7FA6FD3E4F"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "649C9C6CB3EB241E"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			subtitle: "{chapter.1.quest.2.subtitle}"
+			tasks: [
+				{
+					id: "0DD3C1416FC34FA1"
+					title: "{chapter.1.quest.2.task.1.title}"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "380A99374727D6D8"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.2.title}"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: ["{chapter.1.quest.3.description.1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "175099CF5696829E"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				count: 3
+				id: "34B145F40A6C1F3B"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "{chapter.1.quest.3.subtitle}"
+			tasks: [
+				{
+					id: "21428FE253D34D4E"
+					title: "{chapter.1.quest.3.task.1.title}"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "08EDA62F0B406C49"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.3.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: ["{chapter.1.quest.4.description.1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			id: "2165E80C52C79992"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "1F8F06B03E3FCB30"
+				item: {
+					Count: 1b
+					id: "wizards:wand_novice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{chapter.1.quest.4.subtitle}"
+			tasks: [
+				{
+					id: "6A64112F92690241"
+					title: "{chapter.1.quest.4.task.1.title}"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "2B23CADA52D45FA0"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.4.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			description: ["{chapter.1.quest.5.description.1}"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "forge:textures/gui/search.png"
+				}
+			}
+			id: "139DAA6E8CF4267A"
+			rewards: [{
+				id: "1AE5746200C26691"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{chapter.1.quest.5.subtitle}"
+			tasks: [{
+				id: "74C85348A8B837EB"
+				title: "{chapter.1.quest.5.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.5.title}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2165E80C52C79992"]
+			description: ["{chapter.1.quest.6.description.1}"]
+			hide: true
+			icon: "strawgolem:straw_hat"
+			id: "4B757CA4C6D4A6EB"
+			rewards: [{
+				id: "3C8CEF0A99595A10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{chapter.1.quest.6.subtitle}"
+			tasks: [{
+				id: "419AE170FE0B6A4B"
+				title: "{chapter.1.quest.6.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.6.title}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41A362D23E3CC2C6"]
+			description: ["{chapter.1.quest.7.description.1}"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			id: "6A4CB4700F0082C6"
+			rewards: [
+				{
+					id: "0CEA429A4EFA92FE"
+					item: "archon:grimoire"
+					type: "item"
+				}
+				{
+					id: "2808585D0EE745EB"
+					item: "adventurez:handbook"
+					type: "item"
+				}
+				{
+					id: "18A2D4062EBC2799"
+					item: "dehydration:handbook"
+					type: "item"
+				}
+				{
+					id: "190BB0741BC3B873"
+					item: "zenith:book"
+					type: "item"
+				}
+				{
+					id: "3462D5D6E9AB1156"
+					item: {
+						Count: 1b
+						id: "conjuring:enchiridion"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3E74C2BAEEB2CE52"
+					item: "byg:biomepedia"
+					type: "item"
+				}
+				{
+					id: "0DE3F7CB7E410B7D"
+					item: "seasonsextras:seasonal_compendium"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.1.quest.7.subtitle}"
+			tasks: [{
+				id: "3B2CC7DEE30E3AB8"
+				title: "{chapter.1.quest.7.task.1.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"139DAA6E8CF4267A"
+				"4B757CA4C6D4A6EB"
+			]
+			description: ["{chapter.1.quest.8.description.1}"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dehydration:textures/mob_effect/thirst_effect.png"
+				}
+			}
+			id: "41A362D23E3CC2C6"
+			rewards: [{
+				id: "2FDE7266581037B7"
+				item: "dehydration:leather_flask"
+				type: "item"
+			}]
+			subtitle: "{chapter.1.quest.8.subtitle}"
+			tasks: [{
+				id: "2EB663E422AEB389"
+				title: "{chapter.1.quest.8.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.8.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A4CB4700F0082C6"]
+			description: ["{chapter.1.quest.9.description.1}"]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/diamond.png"
+				}
+			}
+			id: "1272952B43DFA218"
+			rewards: [{
+				count: 3
+				id: "3C507F5DAEB57D2F"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			size: 1.2d
+			subtitle: "{chapter.1.quest.9.subtitle}"
+			tasks: [{
+				id: "64F70B833581A586"
+				title: "{chapter.1.quest.9.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.9.title}"
+			x: 1.5d
+			y: -4.210714285714289d
+		}
+	]
+	title: "{chapter.1.title}"
+}
