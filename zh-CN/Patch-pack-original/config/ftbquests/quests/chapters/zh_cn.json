@@ -1,12 +1,175 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "eexploration"
-	group: "3C993182D3E6754B"
-	icon: "minecraft:compass"
-	id: "67F771C65C1E682B"
-	order_index: 1
+	filename: "ethe_bumblezone"
+	group: "59C90AA1B128306B"
+	icon: "the_bumblezone:glistering_honey_crystal"
+	id: "5E108F66F3EF0B77"
+	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
-	title: "{chapter.3.title}"
+	quests: [
+		{
+			description: ["{chapter.11.quest.1.description.1}"]
+			icon: "minecraft:bee_nest"
+			id: "5669A0DAB45F2C62"
+			rewards: [
+				{
+					id: "7ECF17AEC78DD991"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_compass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "54CD4E87551BD9A9"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "{chapter.11.quest.1.subtitle}"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:bee_nest"
+				id: "23EB799CA31143EC"
+				title: "{chapter.11.quest.1.task.1.title}"
+				type: "dimension"
+			}]
+			title: "{chapter.11.quest.1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "6A5111F402D746D5"
+			rewards: [
+				{
+					count: 3
+					id: "54ACEBDEB5E79867"
+					item: "expandeddelight:peanut_butter_honey_sandwich"
+					type: "item"
+				}
+				{
+					id: "0D0A68DFC87D23B4"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.11.quest.2.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:bee_queen_spawn_egg"
+				id: "3BB5DC62B7B44E05"
+				observe_type: 5
+				timer: 0L
+				to_observe: "the_bumblezone:bee_queen"
+				type: "observation"
+			}]
+			title: "{chapter.11.quest.2.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			description: ["{chapter.11.quest.3.description.1}"]
+			id: "1085588F956F6781"
+			rewards: [
+				{
+					id: "115EF1BAA295611D"
+					item: "expandeddelight:peanut_honey_soup"
+					type: "item"
+				}
+				{
+					id: "21DFE8344AEBF071"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+			]
+			subtitle: "{chapter.11.quest.3.subtitle}"
+			tasks: [{
+				id: "076801A54434CD21"
+				item: "the_bumblezone:pollen_puff"
+				type: "item"
+			}]
+			title: "{chapter.11.quest.3.title}"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "619FF16C8CF1058C"
+			rewards: [
+				{
+					id: "23C4971E31F57C74"
+					item: "farmersdelight:honey_glazed_ham"
+					type: "item"
+				}
+				{
+					id: "058741F80A9B44E6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{chapter.11.quest.4.subtitle}"
+			tasks: [{
+				icon: "minecraft:flower_pot"
+				id: "2E69A5082DE69808"
+				structure: "the_bumblezone:hanging_garden"
+				title: "{chapter.11.quest.4.task.1.title}"
+				type: "structure"
+			}]
+			title: "{chapter.11.quest.4.title}"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "369D2467D02270EC"
+			rewards: [{
+				id: "63D53EA85F1CF09A"
+				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+				type: "item"
+			}]
+			subtitle: "{chapter.11.quest.5.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:crystalline_flower"
+				id: "553AEA9E43960A9D"
+				observe_type: 0
+				timer: 0L
+				title: "{chapter.11.quest.5.task.1.title}"
+				to_observe: "the_bumblezone:crystalline_flower"
+				type: "observation"
+			}]
+			title: "{chapter.11.quest.5.title}"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "6164202DAC398029"
+			rewards: [{
+				count: 2
+				id: "2B885ADD87CCAAE4"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			subtitle: "{chapter.11.quest.6.subtitle}"
+			tasks: [{
+				id: "51A5D0D2C39A836E"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:honey_crystal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{chapter.11.quest.6.title}"
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	title: "{chapter.11.title}"
 }
