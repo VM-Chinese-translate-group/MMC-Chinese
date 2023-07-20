@@ -1,72 +1,188 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_aether_paradise_lost"
+	filename: "the_end"
 	group: "59C90AA1B128306B"
-	icon: "minecraft:glowstone"
-	id: "024E592B6E4CA5F5"
-	order_index: 5
+	icon: "minecraft:end_portal_frame"
+	id: "4B174BB2FDFE4D4F"
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "6FCB97F1804B6504"
+			id: "07E305E95A000FAF"
 			rewards: [{
-				id: "5FA799AE508364CF"
+				id: "1A4F1BAC0EB7387F"
+				item: "betterend:guidebook"
+				type: "item"
+			}]
+			subtitle: "{chapter.13.quest.1.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "42642531FFCE3EBA"
+				title: "{chapter.13.quest.1.task.1.title}"
+				type: "dimension"
+			}]
+			title: "{chapter.13.quest.1.title}"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			id: "2CE58DD1AE214711"
+			rewards: [{
+				id: "1919D53920738BB2"
+				item: "adventurez:dragon_saddle"
+				type: "item"
+			}]
+			subtitle: "{chapter.13.quest.2.subtitle}"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "6848B89E38A80BAB"
+				title: "{chapter.13.quest.2.task.1.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{chapter.13.quest.2.title}"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CE58DD1AE214711"]
+			id: "21D51BCBD1818836"
+			rewards: [{
+				id: "288285752789C313"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{chapter.12.quest.1.subtitle}"
+			subtitle: "{chapter.13.quest.3.subtitle}"
 			tasks: [{
-				dimension: "paradise_lost:paradise_lost"
-				icon: "minecraft:glowstone"
-				id: "02EC750DD1DAB99F"
-				title: "{chapter.12.quest.1.task.1.title}"
-				type: "dimension"
+				entity: "adventurez:enderwarthog"
+				icon: "adventurez:warthog_shell_piece"
+				id: "64FF133673B090FC"
+				title: "{chapter.13.quest.3.task.1.title}"
+				type: "kill"
+				value: 1L
 			}]
-			title: "{chapter.12.quest.1.title}"
-			x: -3.0d
-			y: 0.5d
+			title: "{chapter.13.quest.3.title}"
+			x: 1.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6FCB97F1804B6504"]
-			id: "00C313467CF73F0F"
+			dependencies: ["2CE58DD1AE214711"]
+			id: "523ECDEFE767B5D0"
 			rewards: [{
-				id: "57307E941DD0BB10"
-				item: {
-					Count: 1b
-					id: "supplementaries:quiver"
-					tag: { }
+				id: "62D410635AA984DE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "{chapter.13.quest.4.subtitle}"
+			tasks: [{
+				icon: "adventurez:ender_whale_skin"
+				id: "640CC1970264149D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "adventurez:ender_whale"
+				type: "observation"
+			}]
+			title: "{chapter.13.quest.4.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2CE58DD1AE214711"]
+			id: "7E5FC5E13FFF2D6C"
+			rewards: [
+				{
+					id: "2B3D6056353652DC"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
 				}
-				type: "item"
-			}]
-			subtitle: "{chapter.12.quest.2.subtitle}"
+				{
+					id: "5437C3484EFD58E6"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "6BE15140337D1042"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			subtitle: "{chapter.13.quest.5.subtitle}"
 			tasks: [{
-				id: "5359AC6DC2D95A40"
-				item: "paradise_lost:levitator"
-				type: "item"
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "4497666E1477F3A1"
+				title: "{chapter.13.quest.5.task.1.title}"
+				type: "kill"
+				value: 1L
 			}]
-			title: "{chapter.12.quest.2.title}"
-			x: -3.0d
-			y: -1.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["00C313467CF73F0F"]
-			id: "15CBBDF78EE29201"
-			rewards: [{
-				id: "05F25621AF094BF8"
-				item: "paradise_lost:incubator"
-				type: "item"
-			}]
-			subtitle: "{chapter.12.quest.3.subtitle}"
+			dependencies: ["2CE58DD1AE214711"]
+			id: "26E01F1822B87C9D"
+			rewards: [
+				{
+					id: "532C0047F3C89096"
+					item: "probablychests:mimic_core"
+					type: "item"
+				}
+				{
+					id: "10485EF664881B88"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "{chapter.13.quest.6.subtitle}"
 			tasks: [{
-				id: "7A577B89597E1D60"
-				item: "paradise_lost:amadrys_bread_glazed"
-				type: "item"
+				entity: "adventurez:the_eye"
+				icon: "minecraft:ender_eye"
+				id: "0CE2C6F045E057B7"
+				title: "{chapter.13.quest.6.task.1.title}"
+				type: "kill"
+				value: 1L
 			}]
-			title: "{chapter.12.quest.3.title}"
-			x: -3.0d
-			y: -2.5d
+			title: "{chapter.13.quest.6.title}"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26E01F1822B87C9D"]
+			id: "5FCA29F10B0B0F24"
+			rewards: [
+				{
+					id: "6485437B2F07055E"
+					item: "bosses_of_mass_destruction:monolith_block"
+					type: "item"
+				}
+				{
+					id: "5AE898145996CB2B"
+					item: "adventurez:shadow_chest_block"
+					type: "item"
+				}
+				{
+					id: "21C418E19809F111"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "{chapter.13.quest.7.subtitle}"
+			tasks: [{
+				advancement: "adventurez:void_shadow_advancement"
+				criterion: ""
+				icon: "minecraft:dragon_egg"
+				id: "5190752054716766"
+				title: "{chapter.13.quest.7.task.1.title}"
+				type: "advancement"
+			}]
+			title: "{chapter.13.quest.7.title}"
+			x: 5.5d
+			y: -0.5d
 		}
 	]
-	title: "{chapter.12.title}"
+	title: "{chapter.13.title}"
 }
