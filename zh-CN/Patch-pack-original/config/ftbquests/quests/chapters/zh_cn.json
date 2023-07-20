@@ -1,296 +1,334 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_twilight_forest"
-	group: "59C90AA1B128306B"
-	icon: "twilightforest:twilight_portal_miniature_structure"
-	id: "3DAC62F9CB57DD77"
+	filename: "welcome_to_bmc_fabric_1192"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "patchouli:textures/items/book_blue.png"
+		}
+	}
+	id: "3E34934F09B08365"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2BC7B74C1D405B3B"
+			description: ["{chapter.1.quest.1.description.1}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:book"
+				tag: {
+					Enchantments: [{
+						id: "aqua_affinity"
+						lvl: 1
+					}]
+				}
+			}
+			id: "6A52090D6BC064D7"
 			rewards: [{
-				id: "60AC17EED0812047"
-				item: "twilightforest:magic_map"
+				count: 3
+				id: "57BF2196D5016192"
+				item: "minecraft:bread"
 				type: "item"
 			}]
-			subtitle: "{chapter.7.quest.1.subtitle}"
+			size: 2.0d
+			subtitle: "{chapter.1.quest.1.subtitle}"
 			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				icon: "twilightforest:twilight_portal_miniature_structure"
-				id: "43B4B4196E278A86"
-				title: "{chapter.7.quest.1.task.1.title}"
-				type: "dimension"
+				id: "1B0800437C68C43A"
+				title: "{chapter.1.quest.1.task.1.title}"
+				type: "checkmark"
 			}]
-			title: "{chapter.7.quest.1.title}"
-			x: -1.0d
-			y: 0.5d
+			title: "{chapter.1.quest.1.title}"
+			x: 1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["2BC7B74C1D405B3B"]
-			id: "7630C21661FED121"
+			dependencies: ["6A52090D6BC064D7"]
+			description: ["{chapter.1.quest.2.description.1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "2958CA7FA6FD3E4F"
+			invisible: true
+			invisible_until_tasks: 1
 			rewards: [{
-				id: "165BE5F21305C953"
-				type: "xp_levels"
-				xp_levels: 25
+				id: "649C9C6CB3EB241E"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
 			}]
-			subtitle: "{chapter.7.quest.2.subtitle}"
-			tasks: [{
-				advancement: "twilightforest:progress_naga"
-				criterion: ""
-				icon: "twilightforest:naga_trophy"
-				id: "69B74B044D7DA025"
-				type: "advancement"
-			}]
-			title: "{chapter.7.quest.2.title}"
+			subtitle: "{chapter.1.quest.2.subtitle}"
+			tasks: [
+				{
+					id: "0DD3C1416FC34FA1"
+					title: "{chapter.1.quest.2.task.1.title}"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "380A99374727D6D8"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.2.title}"
 			x: 0.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7630C21661FED121"]
-			id: "7149FE98D0E105CE"
-			rewards: [
-				{
-					id: "68947CB4DC37AA7D"
-					type: "xp_levels"
-					xp_levels: 5
+			dependencies: ["6A52090D6BC064D7"]
+			description: ["{chapter.1.quest.3.description.1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
 				}
-				{
-					id: "7989A44691759B58"
-					item: {
-						Count: 1b
-						id: "twilightforest:ore_magnet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "{chapter.7.quest.3.subtitle}"
-			tasks: [{
-				advancement: "twilightforest:progress_lich"
-				criterion: ""
-				icon: "twilightforest:lich_trophy"
-				id: "646F0693F5516AE0"
-				type: "advancement"
-			}]
-			title: "{chapter.7.quest.3.title}"
-			x: 2.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["7149FE98D0E105CE"]
-			id: "5ED257E2C2147AB2"
-			rewards: [
-				{
-					id: "0FB5C5C3A7CCD6B7"
-					item: {
-						Count: 1b
-						id: "twilightforest:zombie_scepter"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "085E0FEEF75E573F"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:fire_resistance"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "{chapter.7.quest.4.subtitle}"
-			tasks: [{
-				id: "6E6661AEE86F30D1"
-				item: "twilightforest:meef_stroganoff"
+			}
+			id: "175099CF5696829E"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				count: 3
+				id: "34B145F40A6C1F3B"
+				item: "minecraft:torch"
 				type: "item"
 			}]
-			title: "{chapter.7.quest.4.title}"
-			x: 3.5d
-			y: 0.5d
+			subtitle: "{chapter.1.quest.3.subtitle}"
+			tasks: [
+				{
+					id: "21428FE253D34D4E"
+					title: "{chapter.1.quest.3.task.1.title}"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "08EDA62F0B406C49"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.3.title}"
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5ED257E2C2147AB2"]
-			id: "37E4C4EFA9E20B79"
+			dependencies: ["6A52090D6BC064D7"]
+			description: ["{chapter.1.quest.4.description.1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			id: "2165E80C52C79992"
+			invisible: true
+			invisible_until_tasks: 1
 			rewards: [{
-				id: "699238838CD37C50"
+				id: "1F8F06B03E3FCB30"
+				item: {
+					Count: 1b
+					id: "wizards:wand_novice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{chapter.1.quest.4.subtitle}"
+			tasks: [
+				{
+					id: "6A64112F92690241"
+					title: "{chapter.1.quest.4.task.1.title}"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "2B23CADA52D45FA0"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.4.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			description: ["{chapter.1.quest.5.description.1}"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "forge:textures/gui/search.png"
+				}
+			}
+			id: "139DAA6E8CF4267A"
+			rewards: [{
+				id: "1AE5746200C26691"
 				type: "xp_levels"
-				xp_levels: 20
+				xp_levels: 1
 			}]
-			subtitle: "{chapter.7.quest.5.subtitle}"
+			subtitle: "{chapter.1.quest.5.subtitle}"
 			tasks: [{
-				id: "5CE43AFD9DF2DF09"
-				item: "twilightforest:hydra_trophy"
-				type: "item"
+				id: "74C85348A8B837EB"
+				title: "{chapter.1.quest.5.task.1.title}"
+				type: "checkmark"
 			}]
-			title: "{chapter.7.quest.5.title}"
-			x: 5.0d
-			y: 0.5d
+			title: "{chapter.1.quest.5.title}"
+			x: 0.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["601FE17AA8C90316"]
-			id: "57FD6DFF7B7647D0"
+			dependencies: ["2165E80C52C79992"]
+			description: ["{chapter.1.quest.6.description.1}"]
+			hide: true
+			icon: "strawgolem:straw_hat"
+			id: "4B757CA4C6D4A6EB"
 			rewards: [{
-				id: "15FE98149B1664BB"
+				id: "3C8CEF0A99595A10"
 				type: "xp_levels"
-				xp_levels: 20
+				xp_levels: 1
 			}]
-			subtitle: "{chapter.7.quest.6.subtitle}"
+			subtitle: "{chapter.1.quest.6.subtitle}"
 			tasks: [{
-				entity: "twilightforest:ur_ghast"
-				icon: "twilightforest:ur_ghast_trophy"
-				id: "45767EA415670C8F"
-				title: "{chapter.7.quest.6.task.1.title}"
-				type: "kill"
-				value: 1L
+				id: "419AE170FE0B6A4B"
+				title: "{chapter.1.quest.6.task.1.title}"
+				type: "checkmark"
 			}]
-			title: "{chapter.7.quest.6.title}"
-			x: 5.0d
-			y: -1.0d
+			title: "{chapter.1.quest.6.title}"
+			x: 2.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["7149FE98D0E105CE"]
-			id: "3D1F53C06B660F96"
-			rewards: [{
-				id: "6E7768ACC6109FD8"
-				item: "twilightforest:charm_of_life_2"
-				type: "item"
-			}]
-			subtitle: "{chapter.7.quest.7.subtitle}"
-			tasks: [{
-				entity: "twilightforest:alpha_yeti"
-				icon: "twilightforest:alpha_yeti_trophy"
-				id: "12C1C8D16C9D9FD1"
-				title: "{chapter.7.quest.7.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.7.quest.7.title}"
-			x: 3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3D1F53C06B660F96"]
-			id: "7B6005A9F6F5C7FE"
-			rewards: [{
-				id: "4AA557C4C8039A50"
-				type: "xp_levels"
-				xp_levels: 20
-			}]
-			subtitle: "{chapter.7.quest.8.subtitle}"
-			tasks: [{
-				id: "5E004DCE9E551CBF"
-				item: "twilightforest:snow_queen_trophy"
-				type: "item"
-			}]
-			title: "{chapter.7.quest.8.title}"
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7149FE98D0E105CE"]
-			id: "601FE17AA8C90316"
+			dependencies: ["41A362D23E3CC2C6"]
+			description: ["{chapter.1.quest.7.description.1}"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			id: "6A4CB4700F0082C6"
 			rewards: [
 				{
-					id: "0E8A59B4B2FDF9BA"
+					id: "0CEA429A4EFA92FE"
+					item: "archon:grimoire"
+					type: "item"
+				}
+				{
+					id: "2808585D0EE745EB"
+					item: "adventurez:handbook"
+					type: "item"
+				}
+				{
+					id: "18A2D4062EBC2799"
+					item: "dehydration:handbook"
+					type: "item"
+				}
+				{
+					id: "190BB0741BC3B873"
+					item: "zenith:book"
+					type: "item"
+				}
+				{
+					id: "3462D5D6E9AB1156"
 					item: {
 						Count: 1b
-						id: "mcdw:bow_void_bow"
-						tag: {
-							Damage: 0
-						}
+						id: "conjuring:enchiridion"
+						tag: { }
 					}
 					type: "item"
 				}
 				{
-					count: 32
-					id: "315839DA9AE9C8C2"
-					item: {
-						Count: 1b
-						id: "mythicmetals:tipped_runite_arrow"
-						tag: {
-							Potion: "minecraft:strong_harming"
-						}
-					}
+					id: "3E74C2BAEEB2CE52"
+					item: "byg:biomepedia"
+					type: "item"
+				}
+				{
+					id: "0DE3F7CB7E410B7D"
+					item: "seasonsextras:seasonal_compendium"
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.7.quest.9.subtitle}"
+			subtitle: "{chapter.1.quest.7.subtitle}"
 			tasks: [{
-				advancement: "twilightforest:progress_knights"
-				criterion: ""
-				id: "40801B47C78FF0BB"
-				type: "advancement"
+				id: "3B2CC7DEE30E3AB8"
+				title: "{chapter.1.quest.7.task.1.title}"
+				type: "checkmark"
 			}]
-			title: "{chapter.7.quest.9.title}"
-			x: 3.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4E9415FC5D3711EB"]
-			id: "0EDB1E145CB2D26F"
-			rewards: [
-				{
-					id: "5AB6929366335D0C"
-					type: "xp_levels"
-					xp_levels: 25
-				}
-				{
-					count: 32
-					id: "656BBFA5B485DA6F"
-					item: "twilightforest:blue_castle_door"
-					type: "item"
-				}
-			]
-			subtitle: "{chapter.7.quest.10.subtitle}"
-			tasks: [{
-				advancement: "twilightforest:progress_castle"
-				criterion: ""
-				id: "3FB649297849E864"
-				type: "advancement"
-			}]
-			title: "{chapter.7.quest.10.title}"
-			x: 8.0d
-			y: 0.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
-				"7B6005A9F6F5C7FE"
-				"37E4C4EFA9E20B79"
-				"57FD6DFF7B7647D0"
+				"139DAA6E8CF4267A"
+				"4B757CA4C6D4A6EB"
 			]
-			id: "4E9415FC5D3711EB"
-			rewards: [
-				{
-					id: "19C8C6D2C0117B6A"
-					type: "xp_levels"
-					xp_levels: 10
+			description: ["{chapter.1.quest.8.description.1}"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dehydration:textures/mob_effect/thirst_effect.png"
 				}
-				{
-					id: "3AF46D22ED48CF68"
-					item: "minecraft:netherite_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "{chapter.7.quest.11.subtitle}"
-			tasks: [{
-				advancement: "twilightforest:progress_troll"
-				criterion: ""
-				id: "69F7F01A2320CCFF"
-				type: "advancement"
+			}
+			id: "41A362D23E3CC2C6"
+			rewards: [{
+				id: "2FDE7266581037B7"
+				item: "dehydration:leather_flask"
+				type: "item"
 			}]
-			title: "{chapter.7.quest.11.title}"
-			x: 6.5d
-			y: 0.5d
+			subtitle: "{chapter.1.quest.8.subtitle}"
+			tasks: [{
+				id: "2EB663E422AEB389"
+				title: "{chapter.1.quest.8.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.8.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A4CB4700F0082C6"]
+			description: ["{chapter.1.quest.9.description.1}"]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/diamond.png"
+				}
+			}
+			id: "1272952B43DFA218"
+			rewards: [{
+				count: 3
+				id: "3C507F5DAEB57D2F"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			size: 1.2d
+			subtitle: "{chapter.1.quest.9.subtitle}"
+			tasks: [{
+				id: "64F70B833581A586"
+				title: "{chapter.1.quest.9.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.9.title}"
+			x: 1.5d
+			y: -4.210714285714289d
 		}
 	]
-	title: "{chapter.7.title}"
+	title: "{chapter.1.title}"
 }
