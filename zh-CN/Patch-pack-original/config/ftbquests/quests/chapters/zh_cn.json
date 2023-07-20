@@ -1,836 +1,90 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "4bosses"
-	group: "3C993182D3E6754B"
-	icon: {
-		Count: 1b
-		id: "minecraft:iron_sword"
-		tag: {
-			Damage: 0
-		}
-	}
-	id: "0AD594F6E12A4FB2"
+	filename: "decoration"
+	group: "799D8360B26E9792"
+	icon: "adorn:oak_chair"
+	id: "3B95E66C126DBBEF"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1C7E9580565509D2"
+			id: "12D4044932EEF253"
 			rewards: [{
-				id: "2B74B30060206BF0"
-				type: "xp_levels"
-				xp_levels: 10
+				id: "34035722E2E7AC32"
+				item: "plushies:dolphin_plushie"
+				type: "item"
 			}]
-			subtitle: "{chapter.2.quest.1.subtitle}"
+			subtitle: "{chapter.15.quest.1.subtitle}"
 			tasks: [{
-				entity: "adventurez:mammoth"
-				icon: "adventurez:mammoth_tusk"
-				id: "01C2EFC344021C4C"
-				title: "{chapter.2.quest.1.task.1.title}"
-				type: "kill"
-				value: 1L
+				id: "1E4769170074A8BD"
+				item: "plushies:dragon_plushie"
+				type: "item"
 			}]
-			title: "{chapter.2.quest.1.title}"
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			id: "128D2885B2B4AE7E"
-			rewards: [{
-				id: "602A9DF87C22C59D"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "{chapter.2.quest.2.subtitle}"
-			tasks: [{
-				entity: "adventurez:desert_rhino"
-				icon: "adventurez:rhino_leather"
-				id: "1841F40D9B6D5AD6"
-				title: "{chapter.2.quest.2.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.2.title}"
+			title: "{chapter.15.quest.1.title}"
 			x: -0.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
-			id: "79E0B6FA628D02E0"
+			id: "7CC366DDC723B30F"
 			rewards: [{
-				id: "5389BDF4AFFB0EC1"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			size: 1.5d
-			subtitle: "{chapter.2.quest.3.subtitle}"
-			tasks: [{
-				id: "770A2015CA927C85"
-				item: "bewitchment:book_of_shadows"
+				count: 3
+				id: "3C2D356E4C7E9061"
+				item: "nethersdelight:plate_of_stuffed_hoglin_ham"
 				type: "item"
 			}]
-			title: "{chapter.2.quest.3.title}"
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["79E0B6FA628D02E0"]
-			id: "48B7753F178E8B98"
-			rewards: [{
-				id: "622F9B7F2B8D8C08"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
-			subtitle: "{chapter.2.quest.4.subtitle}"
+			subtitle: "{chapter.15.quest.2.subtitle}"
 			tasks: [{
-				entity: "bewitchment:demon"
-				icon: "bewitchment:demon_heart"
-				id: "73DB0F0E633B71DC"
-				title: "{chapter.2.quest.4.task.1.title}"
-				type: "kill"
-				value: 1L
+				id: "5B104DD2F88EC5B8"
+				item: "architects_palette:unobtanium"
+				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["79E0B6FA628D02E0"]
-			id: "5B60E2F23ABB67B4"
-			rewards: [{
-				id: "4CC4D714E21ABB2F"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
-			subtitle: "{chapter.2.quest.5.subtitle}"
-			tasks: [{
-				entity: "besmirchment:beelzebub"
-				icon: "bewitchment:demon_heart"
-				id: "36B04C139BE46322"
-				title: "{chapter.2.quest.5.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["79E0B6FA628D02E0"]
-			id: "06F68A7AF4C03524"
-			rewards: [{
-				id: "452197CFB214C920"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
-			subtitle: "{chapter.2.quest.6.subtitle}"
-			tasks: [{
-				entity: "bewitchment:baphomet"
-				icon: "bewitchment:demon_heart"
-				id: "654E4AAE49D53B2A"
-				title: "{chapter.2.quest.6.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			x: 2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["79E0B6FA628D02E0"]
-			id: "2807C094857B8A91"
-			rewards: [{
-				id: "6B14AFD183E140CD"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
-			subtitle: "{chapter.2.quest.7.subtitle}"
-			tasks: [{
-				entity: "bewitchment:lilith"
-				icon: "bewitchment:demon_heart"
-				id: "7F5279B4634C50A5"
-				title: "{chapter.2.quest.7.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["79E0B6FA628D02E0"]
-			id: "4A763DA6B96789BC"
-			rewards: [{
-				id: "6FB8C8614A0A9B2D"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
-			subtitle: "{chapter.2.quest.8.subtitle}"
-			tasks: [{
-				entity: "bewitchment:herne"
-				icon: "bewitchment:demon_heart"
-				id: "4194434FB9904BCD"
-				title: "{chapter.2.quest.8.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			x: 5.0d
-			y: 3.0d
-		}
-		{
-			id: "2D3BD496319AD33C"
-			rewards: [{
-				id: "1186EE587933BE7B"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.2.quest.9.subtitle}"
-			tasks: [{
-				entity: "adventurez:amethyst_golem"
-				icon: "minecraft:amethyst_cluster"
-				id: "64CB4ECC614E2DC9"
-				title: "{chapter.2.quest.9.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.9.title}"
+			title: "{chapter.15.quest.2.title}"
 			x: -2.0d
-			y: 1.5d
+			y: -0.5d
 		}
 		{
-			id: "74AFEC7266C2EB4B"
-			rewards: [
-				{
-					id: "6644BB12DC8279E5"
-					item: {
-						Count: 1b
-						id: "archon:heat_ranger"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1B8302FEB178CA70"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			subtitle: "{chapter.2.quest.10.subtitle}"
-			tasks: [{
-				entity: "archon:ayla"
-				icon: "archon:angelic_star"
-				id: "3D59CFDFAC4FE062"
-				title: "{chapter.2.quest.10.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.10.title}"
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			id: "07E3267E019380D9"
-			rewards: [
-				{
-					id: "12DC1073F66D3A0A"
-					item: {
-						Count: 1b
-						id: "archon:soul_scythe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0C2C5707FC241CE4"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			subtitle: "{chapter.2.quest.11.subtitle}"
-			tasks: [{
-				entity: "archon:tar"
-				icon: "archon:terranite_stone"
-				id: "018AD2867C49F837"
-				title: "{chapter.2.quest.11.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.11.title}"
-			x: -3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"4EF485B4BE7BC4BF"
-				"5A1817A81A4FD5C1"
-			]
-			id: "69D89EFBD57A17D5"
-			rewards: [
-				{
-					count: 3
-					id: "03B2F24DE198D44A"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-				{
-					id: "0B46A29D4214F89B"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			size: 1.3d
-			subtitle: "{chapter.2.quest.12.subtitle}"
-			tasks: [{
-				entity: "graveyard:lich"
-				icon: "graveyard:altar"
-				id: "2424B45972B567F2"
-				title: "{chapter.2.quest.12.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.12.title}"
-			x: -1.9500000000000002d
-			y: -3.2500000000000004d
-		}
-		{
-			id: "63D82D9074FC34E3"
-			rewards: [
-				{
-					id: "37B03BE444D6331F"
-					item: "bosses_of_mass_destruction:mob_ward"
-					type: "item"
-				}
-				{
-					id: "7C048ADB6DF63093"
-					item: "bosses_of_mass_destruction:void_lily"
-					type: "item"
-				}
-				{
-					id: "6510FC5C5113401C"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{chapter.2.quest.13.subtitle}"
-			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				icon: "bosses_of_mass_destruction:ancient_anima"
-				id: "727F7A1D307E65A9"
-				title: "{chapter.2.quest.13.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.13.title}"
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			id: "4EF485B4BE7BC4BF"
-			rewards: [
-				{
-					id: "7F9EF6DED6DAEDA9"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "25AB22460CC2700E"
-					item: {
-						Count: 1b
-						id: "graveyard:bone_dagger"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "{chapter.2.quest.14.subtitle}"
-			tasks: [
-				{
-					id: "2A706CD3FAB1234F"
-					item: "graveyard:upper_bone_staff"
-					type: "item"
-				}
-				{
-					id: "198DC7FFF9829D01"
-					item: "graveyard:middle_bone_staff"
-					type: "item"
-				}
-				{
-					id: "5B0A9A530ACD3602"
-					item: "graveyard:lower_bone_staff"
-					type: "item"
-				}
-			]
-			title: "{chapter.2.quest.14.title}"
-			x: -3.5d
-			y: -3.5d
-		}
-		{
-			id: "5A1817A81A4FD5C1"
+			id: "27CA0D18235360A1"
 			rewards: [{
-				id: "5015F1497322E9DD"
+				id: "1229487121D0D6C7"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
-			subtitle: "{chapter.2.quest.15.subtitle}"
+			subtitle: "{chapter.15.quest.3.subtitle}"
 			tasks: [{
-				id: "25880E2628FA206B"
-				item: {
-					Count: 1b
-					id: "graveyard:vial_of_blood"
-					tag: {
-						Blood: 0.8000001f
-					}
-				}
+				id: "4E5C553A94290A8D"
+				item: "adorn:guide_book"
 				type: "item"
 			}]
-			title: "{chapter.2.quest.15.title}"
+			title: "{chapter.15.quest.3.title}"
 			x: -3.5d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
-			id: "24969D5FC76CDBB3"
-			rewards: [
-				{
-					id: "68DFBB0E19E00038"
-					item: {
-						Count: 1b
-						id: "bosses_of_mass_destruction:earthdive_spear"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2FFD48DDB0939A9A"
-					item: "minecraft:totem_of_undying"
-					type: "item"
-				}
-				{
-					id: "2183267258371663"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{chapter.2.quest.16.subtitle}"
-			tasks: [{
-				entity: "bosses_of_mass_destruction:void_blossom"
-				icon: "bosses_of_mass_destruction:void_thorn"
-				id: "3DB51E789F4F929F"
-				title: "{chapter.2.quest.16.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.16.title}"
-			x: -3.5d
-			y: 4.5d
-		}
-		{
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "mysticaloaktree:textures/block/wise_oak.png"
-				}
-			}
-			id: "009062C8DCDF2FCC"
+			id: "731AF96597BF5309"
 			rewards: [{
-				id: "541075951585637A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.2.quest.17.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "mysticaloaktree:textures/block/wise_oak_butt.png"
-					}
-				}
-				id: "68E72F99E8828F14"
-				observe_type: 0
-				timer: 0L
-				to_observe: "mysticaloaktree:wise_oak"
-				type: "observation"
-			}]
-			title: "{chapter.2.quest.17.title}"
-			x: -0.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["428FABFBFA313439"]
-			id: "5F25DD96B716376D"
-			rewards: [{
-				id: "4D205A9BFC5631CF"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
-			subtitle: "{chapter.2.quest.18.subtitle}"
-			tasks: [{
-				icon: "soulsweapons:chaos_orb"
-				id: "42FECE4B9C4FABDE"
-				observe_type: 5
-				timer: 0L
-				to_observe: "soulsweapons:soulmass"
-				type: "observation"
-			}]
-			title: "{chapter.2.quest.18.title}"
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"7F41A7E307CD03B6"
-				"58E734F14C7BBF49"
-			]
-			id: "428FABFBFA313439"
-			rewards: [{
-				id: "6CD5356BBB00EB1C"
-				item: "gofish:soul_crate"
+				count: 3
+				id: "67FE2099D771BA47"
+				item: "supplementaries:doormat"
 				type: "item"
 			}]
-			subtitle: "{chapter.2.quest.19.subtitle}"
+			subtitle: "{chapter.15.quest.4.subtitle}"
 			tasks: [{
-				id: "04297D6FF26292BE"
-				item: {
-					Count: 1b
-					id: "soulsweapons:soul_reaper"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "{chapter.2.quest.19.title}"
-			x: 3.5d
-			y: -3.0d
-		}
-		{
-			id: "7F41A7E307CD03B6"
-			rewards: [{
-				count: 20
-				id: "2C560C25CF5E20A2"
-				item: "soulsweapons:silver_bullet"
-				type: "item"
-			}]
-			subtitle: "{chapter.2.quest.20.subtitle}"
-			tasks: [{
-				id: "5F39846DCFDFB0F8"
+				id: "7ABFAF9A70390461"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "soulsweapons:lord_soul"
+						value: "dramaticdoors:tall_doors"
 					}
 				}
-				title: "{chapter.2.quest.20.task.1.title}"
+				title: "{chapter.15.quest.4.task.1.title}"
 				type: "item"
 			}]
-			title: "{chapter.2.quest.20.title}"
-			x: 3.5d
-			y: -4.5d
-		}
-		{
-			id: "3570276AEF733567"
-			rewards: [{
-				id: "3384173769B75B3F"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.2.quest.21.subtitle}"
-			tasks: [{
-				id: "6AC0EA4DC27BE653"
-				item: "soulsweapons:lost_soul"
-				type: "item"
-			}]
-			title: "{chapter.2.quest.21.title}"
-			x: 6.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3570276AEF733567"]
-			id: "58E734F14C7BBF49"
-			rewards: [{
-				id: "59A6362778B76ACC"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.2.quest.22.subtitle}"
-			tasks: [{
-				id: "7B03B948A97182B9"
-				item: "soulsweapons:soul_ingot"
-				type: "item"
-			}]
-			title: "{chapter.2.quest.22.title}"
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			id: "2AE60180BCEE664D"
-			rewards: [{
-				id: "1569B4118195B5E0"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "goblintraders:dig_speed"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{chapter.2.quest.23.subtitle}"
-			tasks: [{
-				id: "0251A3CBD00A7618"
-				item: "soulsweapons:boss_compass"
-				type: "item"
-			}]
-			title: "{chapter.2.quest.23.title}"
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			dependency_requirement: "one_completed"
-			id: "2FBEA509EEA51D61"
-			rewards: [{
-				id: "0A12C61B36B7F785"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
-			subtitle: "{chapter.2.quest.24.subtitle}"
-			tasks: [{
-				entity: "soulsweapons:draugr_boss"
-				icon: {
-					Count: 1b
-					id: "soulsweapons:draugr"
-					tag: {
-						Damage: 0
-						night: 1b
-					}
-				}
-				id: "536B6F053CE47F37"
-				title: "{chapter.2.quest.24.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.24.title}"
-			x: 5.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["3570276AEF733567"]
-			dependency_requirement: "one_completed"
-			id: "3596033B80137A70"
-			rewards: [{
-				id: "58714633249911CF"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
-			subtitle: "{chapter.2.quest.25.subtitle}"
-			tasks: [{
-				entity: "soulsweapons:returning_knight"
-				icon: {
-					Count: 1b
-					id: "soulsweapons:nightfall"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "2869157ED8640191"
-				title: "{chapter.2.quest.25.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.25.title}"
-			x: 6.5d
-			y: -6.0d
-		}
-		{
-			id: "1DACA1DF3AD232B4"
-			rewards: [{
-				id: "012E6A3E9F3887DE"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.2.quest.26.subtitle}"
-			tasks: [{
-				id: "5A7C450361A98508"
-				item: "soulsweapons:altar_block"
-				type: "item"
-			}]
-			title: "{chapter.2.quest.26.title}"
-			x: 6.5d
-			y: -4.5d
-		}
-		{
-			id: "2D7566077CD34EBF"
-			rewards: [{
-				id: "6A04D444C65B7A00"
-				item: "archon:summoning_pedestal"
-				type: "item"
-			}]
-			subtitle: "{chapter.2.quest.27.subtitle}"
-			tasks: [{
-				advancement: "wetlands:eternal_guardian"
-				criterion: ""
-				id: "500D9764E475F2C7"
-				type: "advancement"
-			}]
-			title: "{chapter.2.quest.27.title}"
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			id: "70EFFB697B8B8995"
-			rewards: [{
-				id: "79E1E8789E908A61"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "{chapter.2.quest.28.subtitle}"
-			tasks: [{
-				id: "59CA741F6852CBD3"
-				item: {
-					Count: 1b
-					id: "soulsweapons:pure_moonlight_greatsword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "{chapter.2.quest.28.title}"
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1DACA1DF3AD232B4"]
-			id: "1E7B04FE503F5CE5"
-			rewards: [
-				{
-					id: "6885B5D21995888D"
-					item: "soulsweapons:withered_demon_heart"
-					type: "item"
-				}
-				{
-					id: "78492538FA81E9AD"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "zenith:miners_fervor"
-								lvl: 5s
-							}]
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "{chapter.2.quest.29.subtitle}"
-			tasks: [{
-				advancement: "soulsweapons:moonknight"
-				criterion: ""
-				id: "009F7DC16FB1E465"
-				title: "{chapter.2.quest.29.task.1.title}"
-				type: "advancement"
-			}]
-			x: 5.0d
-			y: -6.0d
-		}
-		{
-			id: "6B2017E49D279C20"
-			rewards: [{
-				id: "52DBB6D00B672B4F"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.2.quest.30.subtitle}"
-			tasks: [{
-				entity: "adventurez:summoner"
-				icon: "minecraft:skeleton_skull"
-				id: "6DC174BE40170E18"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.30.title}"
-			x: -3.5d
-			y: 0.0d
-		}
-		{
-			id: "2DC00CA5EE329F42"
-			rewards: [{
-				count: 3
-				id: "6ACB46889A6D2465"
-				item: "whisperwoods:bottled_moth"
-				type: "item"
-			}]
-			subtitle: "{chapter.2.quest.31.subtitle}"
-			tasks: [{
-				entity: "whisperwoods:hirschgeist"
-				icon: {
-					Count: 1b
-					id: "whisperwoods:hirschgeist_skull"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "6C4463459AF4E61C"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.31.title}"
-			x: -2.0d
-			y: 4.5d
-		}
-		{
-			id: "27B5B21EE85932A5"
-			rewards: [{
-				count: 3
-				id: "2770663E51068462"
-				item: "minecraft:netherite_scrap"
-				random_bonus: 2
-				type: "item"
-			}]
-			subtitle: "{chapter.2.quest.32.subtitle}"
-			tasks: [{
-				entity: "minecraft:wither"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "7FF2BF8BEEA4986F"
-				title: "{chapter.2.quest.32.task.1.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{chapter.2.quest.32.title}"
-			x: 3.5d
-			y: -1.0d
-		}
-		{
-			id: "12C19988D138E779"
-			rewards: [
-				{
-					count: 3
-					id: "6D458251D03224C6"
-					item: "spellbladenext:runegleaming_ingot"
-					type: "item"
-				}
-				{
-					id: "3C435B86154FF711"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{chapter.2.quest.33.subtitle}"
-			tasks: [{
-				id: "5BADA19757177D57"
-				item: "spellbladenext:prismaticeffigy"
-				type: "item"
-			}]
-			title: "{chapter.2.quest.33.title}"
-			x: -0.5d
-			y: 4.5d
+			title: "{chapter.15.quest.4.title}"
+			x: 1.0d
+			y: -0.5d
 		}
 	]
-	title: "{chapter.2.title}"
+	title: "{chapter.15.title}"
 }
