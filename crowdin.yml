@@ -1,5 +1,5 @@
 files:
-  - source: /Patch-pack-original/
+  - source: /Patch-pack-original/config
     ignore:
-      - config/ftbquests
+      - ftbquests
     translation: '%original_path%/zh_cn.json'
