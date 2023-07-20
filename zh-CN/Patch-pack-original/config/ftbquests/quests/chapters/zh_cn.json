@@ -1,175 +1,103 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "ethe_bumblezone"
+	filename: "mine_cells"
 	group: "59C90AA1B128306B"
-	icon: "the_bumblezone:glistering_honey_crystal"
-	id: "5E108F66F3EF0B77"
-	order_index: 4
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecells:textures/mob_effect/cursed.png"
+		}
+	}
+	id: "1CF65D6371AA2203"
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{chapter.11.quest.1.description.1}"]
-			icon: "minecraft:bee_nest"
-			id: "5669A0DAB45F2C62"
-			rewards: [
-				{
-					id: "7ECF17AEC78DD991"
-					item: {
-						Count: 1b
-						id: "the_bumblezone:honey_compass"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "54CD4E87551BD9A9"
-					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
-					type: "item"
-				}
-			]
-			size: 1.5d
-			subtitle: "{chapter.11.quest.1.subtitle}"
+			id: "79FA9140695A02C0"
+			rewards: [{
+				id: "034A43F3D26FDDD4"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			subtitle: "{chapter.9.quest.1.subtitle}"
 			tasks: [{
-				dimension: "the_bumblezone:the_bumblezone"
-				icon: "minecraft:bee_nest"
-				id: "23EB799CA31143EC"
-				title: "{chapter.11.quest.1.task.1.title}"
+				dimension: "minecells:prison"
+				icon: "minecraft:cobblestone"
+				id: "1B45ED7E7358543E"
 				type: "dimension"
 			}]
-			title: "{chapter.11.quest.1.title}"
-			x: 0.0d
-			y: 0.0d
+			title: "{chapter.9.quest.1.title}"
+			x: 0.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["5669A0DAB45F2C62"]
-			id: "6A5111F402D746D5"
-			rewards: [
-				{
-					count: 3
-					id: "54ACEBDEB5E79867"
-					item: "expandeddelight:peanut_butter_honey_sandwich"
-					type: "item"
-				}
-				{
-					id: "0D0A68DFC87D23B4"
-					item: "the_bumblezone:music_disc_la_bee_da_loca"
-					type: "item"
-				}
-			]
-			subtitle: "{chapter.11.quest.2.subtitle}"
-			tasks: [{
-				icon: "the_bumblezone:bee_queen_spawn_egg"
-				id: "3BB5DC62B7B44E05"
-				observe_type: 5
-				timer: 0L
-				to_observe: "the_bumblezone:bee_queen"
-				type: "observation"
-			}]
-			title: "{chapter.11.quest.2.title}"
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5669A0DAB45F2C62"]
-			description: ["{chapter.11.quest.3.description.1}"]
-			id: "1085588F956F6781"
-			rewards: [
-				{
-					id: "115EF1BAA295611D"
-					item: "expandeddelight:peanut_honey_soup"
-					type: "item"
-				}
-				{
-					id: "21DFE8344AEBF071"
-					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
-					type: "item"
-				}
-			]
-			subtitle: "{chapter.11.quest.3.subtitle}"
-			tasks: [{
-				id: "076801A54434CD21"
-				item: "the_bumblezone:pollen_puff"
-				type: "item"
-			}]
-			title: "{chapter.11.quest.3.title}"
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5669A0DAB45F2C62"]
-			id: "619FF16C8CF1058C"
-			rewards: [
-				{
-					id: "23C4971E31F57C74"
-					item: "farmersdelight:honey_glazed_ham"
-					type: "item"
-				}
-				{
-					id: "058741F80A9B44E6"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{chapter.11.quest.4.subtitle}"
-			tasks: [{
-				icon: "minecraft:flower_pot"
-				id: "2E69A5082DE69808"
-				structure: "the_bumblezone:hanging_garden"
-				title: "{chapter.11.quest.4.task.1.title}"
-				type: "structure"
-			}]
-			title: "{chapter.11.quest.4.title}"
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5669A0DAB45F2C62"]
-			id: "369D2467D02270EC"
+			dependencies: ["79FA9140695A02C0"]
+			id: "678B2562584E24EF"
 			rewards: [{
-				id: "63D53EA85F1CF09A"
-				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+				id: "4148F0D9C8D784F4"
+				item: "alloy_forgery:prismarine_bricks_forge_controller"
 				type: "item"
 			}]
-			subtitle: "{chapter.11.quest.5.subtitle}"
+			subtitle: "{chapter.9.quest.2.subtitle}"
 			tasks: [{
-				icon: "the_bumblezone:crystalline_flower"
-				id: "553AEA9E43960A9D"
-				observe_type: 0
-				timer: 0L
-				title: "{chapter.11.quest.5.task.1.title}"
-				to_observe: "the_bumblezone:crystalline_flower"
-				type: "observation"
-			}]
-			title: "{chapter.11.quest.5.title}"
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5669A0DAB45F2C62"]
-			id: "6164202DAC398029"
-			rewards: [{
-				count: 2
-				id: "2B885ADD87CCAAE4"
-				item: "the_bumblezone:honey_crystal_shards"
-				type: "item"
-			}]
-			subtitle: "{chapter.11.quest.6.subtitle}"
-			tasks: [{
-				id: "51A5D0D2C39A836E"
-				item: {
+				entity: "minecells:conjunctivius"
+				icon: {
 					Count: 1b
-					id: "the_bumblezone:honey_crystal_shield"
+					id: "minecells:tentacle"
 					tag: {
 						Damage: 0
 					}
 				}
+				id: "34A86CD084A8B298"
+				title: "{chapter.9.quest.2.task.1.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{chapter.9.quest.2.title}"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79FA9140695A02C0"]
+			id: "4EE0E9381F12E9E1"
+			rewards: [{
+				count: 16
+				id: "719FAB3F9EE90599"
+				item: "minecraft:chain"
 				type: "item"
 			}]
-			title: "{chapter.11.quest.6.title}"
+			subtitle: "{chapter.9.quest.3.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "40F83D5C1C42CF08"
+				item: "minecells:elevator_assembler"
+				type: "item"
+			}]
+			title: "{chapter.9.quest.3.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79FA9140695A02C0"]
+			id: "3DB65504F570A378"
+			rewards: [{
+				id: "7076959FE658CEA3"
+				item: "minecells:king_statue"
+				type: "item"
+			}]
+			subtitle: "{chapter.9.quest.4.subtitle}"
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:wilted_grass_block"
+				id: "0097AFBF80EDB74E"
+				title: "{chapter.9.quest.4.task.1.title}"
+				type: "dimension"
+			}]
 			x: -1.0d
-			y: -1.5d
+			y: 0.5d
 		}
 	]
-	title: "{chapter.11.title}"
+	title: "{chapter.9.title}"
 }
