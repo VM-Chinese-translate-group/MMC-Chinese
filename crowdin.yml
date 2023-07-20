@@ -1,5 +1,3 @@
 files:
-  - source: /Patch-pack-original
-    ignore:
-      - /config/ftbquests
+  - source: /Patch-pack-original/config/paxi/resourcepacks/vm-language/assets
     translation: '%original_path%/zh_cn.json'
