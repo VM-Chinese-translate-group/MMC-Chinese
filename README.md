@@ -1,7 +1,7 @@
 # Modpack Name 汉化补丁
-CurseForge|Modrinth|Modpack Version|Status
+CurseForge|Modrinth|Modpack Version|状态
 :-|:-|:-|:-
-[ModpackName]()|[ModpackName]()|Version|*Active*|
+[Medieval MC](https://www.curseforge.com/minecraft/modpacks/medieval-mc-fabric-mmc1)|[ModpackName]()|Version|*Active*|
 # 译者
 查看贡献者列表以获得完整译者名单
 # 鸣谢
