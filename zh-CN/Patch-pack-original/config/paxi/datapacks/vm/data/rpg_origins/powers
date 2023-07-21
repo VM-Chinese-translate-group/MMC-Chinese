@@ -1,10 +1,19 @@
 {
-    "name": "Fast Cure",
-    "description": "Your immune to poison, weakness, and slowness.",
-    "type": "origins:effect_immunity",
-    "effects": [
-        "minecraft:poison",
-        "minecraft:weakness",
-        "minecraft:slowness"
-    ]
+    "name": "Fireball",
+    "description": "You can shoot a fireball in the direction your facing, intersting how spells can do that.",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:fireball",
+    "cooldown": 1500,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 7
+    },
+    "count": 1,
+    "interval": 0,
+    "start_delay": 0,
+    "speed": 1,
+    "divergence": 1,
+    "sound": "minecraft:entity.blaze.shoot",
+    "tag": "{ExplosionPower:2b}"
 }
