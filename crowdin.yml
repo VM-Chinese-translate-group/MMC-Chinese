@@ -3,3 +3,5 @@ files:
     ignore:
       - simplyswords
     translation: '%original_path%/zh_cn.json'
+  - source: Patch-pack-original/config/paxi/datapacks/vm/data
+    translation: '%original_path%'
