@@ -1,11 +1,10 @@
 {
-    "name": "Better Unnoticed",
-    "description": "You'd rather not be seen, since you sacrifice health for speed. You have 2 less max hearts.",
-    "type": "origins:attribute",
+    "name": "Brewer",
+    "description": "You are experienced in potion making, so speed, regeneration, jump boost, and strength last longer.",
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:jump_boost",
     "modifier": {
-        "attribute": "minecraft:generic.max_health",
-        "operation": "multiply_total",
-        "value": "-0.2"
-    },
-    "update_health": true
+        "operation": "multiply_base",
+        "value": "0.5"
+    }
 }
