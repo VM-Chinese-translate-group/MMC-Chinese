@@ -1,9 +1,20 @@
 {
-    "name": "隐身",
-    "description": "无论何时蹲下，你都不会被看到，但在隐身时和隐身后 3 秒内无法攻击。",
+    "name": "潜行伤害",
+    "description": "隐身状态的伤害效果",
+    "hidden": true,
     "condition": {
         "type": "origins:sneaking"
     },
-    "type": "origins:invisibility",
-    "render_armor": false
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 60,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "duration": 60,
+        "amplifier": 255,
+        "show_particles": false,
+        "show_icon": false
+    }
 }
