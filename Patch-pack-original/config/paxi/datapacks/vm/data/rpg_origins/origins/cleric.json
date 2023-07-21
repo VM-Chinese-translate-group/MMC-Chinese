@@ -1,0 +1,18 @@
+{
+    "name": "Cleric",
+    "description": "You're there to heal and help others. You'll rarely be seen directly attacking others.",
+    "powers": [
+        "rpg_origins:villagefriendly",
+        "rpg_origins:not_the_strongest",
+        "rpg_origins:brewer_jumpboost",
+        "rpg_origins:brewer_speed",
+        "rpg_origins:brewer_strength",
+        "rpg_origins:brewer_regeneration",
+        "rpg_origins:heal_pool",
+        "rpg_origins:forgivable"
+    ],
+    "icon": {
+        "item": "minecraft:emerald"
+    },
+    "impact": 1
+}
