@@ -1,18 +1,14 @@
 {
-    "name": "牧师",
-    "description": "你的任务是治疗和帮助他人。很少会看到你直接攻击别人.",
+    "name": "骑士",
+    "description": "你是一名强大的骑士。你习惯冲锋陷阵，随时准备做出牺牲。",
     "powers": [
-        "rpg_origins:villagefriendly",
-        "rpg_origins:not_the_strongest",
-        "rpg_origins:brewer_jumpboost",
-        "rpg_origins:brewer_speed",
-        "rpg_origins:brewer_strength",
-        "rpg_origins:brewer_regeneration",
-        "rpg_origins:heal_pool",
-        "rpg_origins:forgivable"
+        "rpg_origins:durable",
+        "origins:more_exhaustion",
+        "rpg_origins:prepared",
+        "rpg_origins:trained"
     ],
     "icon": {
-        "item": "minecraft:emerald"
+        "item": "minecraft:shield"
     },
     "impact": 1
 }
