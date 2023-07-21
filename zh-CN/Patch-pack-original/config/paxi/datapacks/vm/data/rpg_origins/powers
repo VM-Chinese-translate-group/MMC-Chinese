@@ -1,20 +1,23 @@
 {
-    "name": "Stealthy Invis",
-    "description": "The invisible effect for steathy",
-    "hidden": true,
-    "condition": {
-        "type": "origins:sneaking"
+    "name": "Thefty",
+    "description": "Whenever you kill a villager (Why would you) you can steal some emeralds.",
+    "type": "origins:self_action_on_kill",
+    "target_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:villager"
     },
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 1,
-    "max_stacks": 1,
-    "duration_per_stack": 1,
-    "tick_rate": 10,
-    "effect": {
-        "effect": "minecraft:invisiblity",
-        "duration": 1,
-        "amplifier": 255,
-        "show_particles": false,
-        "show_icon": false
+    "entity_action": {
+        "type": "origins:give",
+        "stack": {
+            "item": "minecraft:emerald",
+            "amount": 3
+        },
+        "preferred_slot": "offhand"
+    },
+    "cooldown": 2000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 1
     }
 }
