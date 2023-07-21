@@ -1,5 +1,5 @@
 {
-  "item.mythicupgrades.ruby": "Ruby",
+  "item.mythicupgrades.ruby": "红宝石",
   "item.mythicupgrades.sapphire": "Sapphire",
   "item.mythicupgrades.jade": "Jade",
   "item.mythicupgrades.topaz": "Topaz",
@@ -46,7 +46,7 @@
   "block.mythicupgrades.sapphire_ore": "Sapphire Ore",
   "block.mythicupgrades.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.mythicupgrades.sapphire_block": "Block of Sapphire",
-  "block.mythicupgrades.ruby_ore": "Ruby Ore",
+  "block.mythicupgrades.ruby_ore": "红宝石矿石",
   "block.mythicupgrades.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.mythicupgrades.ruby_block": "Block of Ruby",
   "block.mythicupgrades.jade_ore": "Jade Ore",
