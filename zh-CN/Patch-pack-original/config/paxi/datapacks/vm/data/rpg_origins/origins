@@ -1,18 +1,14 @@
 {
-    "name": "Cleric",
-    "description": "You're there to heal and help others. You'll rarely be seen directly attacking others.",
+    "name": "Knight",
+    "description": "You're a powerful knight. You're used to being on the front line in battle and are always ready to make sacrifices.",
     "powers": [
-        "rpg_origins:villagefriendly",
-        "rpg_origins:not_the_strongest",
-        "rpg_origins:brewer_jumpboost",
-        "rpg_origins:brewer_speed",
-        "rpg_origins:brewer_strength",
-        "rpg_origins:brewer_regeneration",
-        "rpg_origins:heal_pool",
-        "rpg_origins:forgivable"
+        "rpg_origins:durable",
+        "origins:more_exhaustion",
+        "rpg_origins:prepared",
+        "rpg_origins:trained"
     ],
     "icon": {
-        "item": "minecraft:emerald"
+        "item": "minecraft:shield"
     },
     "impact": 1
 }
