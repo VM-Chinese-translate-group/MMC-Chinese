@@ -1,17 +1,18 @@
 {
-    "name": "Brute",
-    "description": "You're a heavy hitting machine with an arsenal of axes.",
+    "name": "Cleric",
+    "description": "You're there to heal and help others. You'll rarely be seen directly attacking others.",
     "powers": [
-        "rpg_origins:no_time_to_rest",
-        "rpg_origins:no_shield",
-        "rpg_origins:strong_arms",
-        "rpg_origins:select_targets_strong",
-        "rpg_origins:strong_arms_break_speed",
-        "rpg_origins:natural_armor",
-        "rpg_origins:select_targets_weak"
+        "rpg_origins:villagefriendly",
+        "rpg_origins:not_the_strongest",
+        "rpg_origins:brewer_jumpboost",
+        "rpg_origins:brewer_speed",
+        "rpg_origins:brewer_strength",
+        "rpg_origins:brewer_regeneration",
+        "rpg_origins:heal_pool",
+        "rpg_origins:forgivable"
     ],
     "icon": {
-        "item": "minecraft:iron_axe"
+        "item": "minecraft:emerald"
     },
-    "impact": 3
+    "impact": 1
 }
