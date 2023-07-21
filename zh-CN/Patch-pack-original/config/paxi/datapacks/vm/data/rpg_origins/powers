@@ -1,11 +1,10 @@
 {
-    "name": "不被注意更好",
-    "description": "你宁愿不被发现，你牺牲了健康来换取速度。你的最大生命值减少4。",
-    "type": "origins:attribute",
+    "name": "酿造师",
+    "description": "你在制作药水方面经验丰富，因此速度、再生、跳跃提升和力量的持续时间更长。",
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:jump_boost",
     "modifier": {
-        "attribute": "minecraft:generic.max_health",
-        "operation": "multiply_total",
-        "value": "-0.2"
-    },
-    "update_health": true
+        "operation": "multiply_base",
+        "value": "0.5"
+    }
 }
