@@ -1,21 +1,15 @@
 {
-    "name": "Resourceful",
-    "description": "Whenever you are near a fletching table and crafting, you can make more arrows.",
-    "condition": {
-        "type": "origins:block_in_radius",
-        "block_condition": {
-            "type": "origins:block",
-            "block": "minecraft:fletching_table"
-        },
-        "radius": 3,
-        "shape": "sphere",
+    "name": "Select Targets",
+    "description": "You are stronger against mobs with a great amount of health, but are weaker against mobs with lower health.",
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:attribute",
+        "attribute": "generic.max_health",
         "comparison": ">=",
-        "compare_to": 1
+        "compare_to": 50
     },
-    "type": "origins:modify_crafting",
-    "recipe": "minecraft:arrow",
-    "result": {
-        "item": "minecraft:arrow",
-        "amount": 8
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1
     }
 }
