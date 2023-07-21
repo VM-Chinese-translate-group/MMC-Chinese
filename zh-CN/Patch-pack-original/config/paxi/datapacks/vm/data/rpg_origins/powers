@@ -1,24 +1,21 @@
 {
-    "name": "Quiver",
-    "description": "You always have a quiver to make sure you have back-up arrows. You can put anything in it, but if you die, everything except arrows will drop.",
-    "type": "origins:inventory",
-    "title": "Quiver",
-    "container_type": "hopper",
-    "drop_on_death": true,
-    "drop_on_death_filter": {
-        "inverted": true,
-        "type": "origins:ingredient",
-        "ingredient": [
-            {
-                "item": "minecraft:arrow"
-            },
-            {
-                "item": "minecraft:spectral_arrow"
-            },
-            {
-                "item": "minecraft:tipped_arrow"
-            }
-        ]
+    "name": "Resourceful",
+    "description": "Whenever you are near a fletching table and crafting, you can make more arrows.",
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:fletching_table"
+        },
+        "radius": 3,
+        "shape": "sphere",
+        "comparison": ">=",
+        "compare_to": 1
     },
-    "recoverable": true
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:arrow",
+    "result": {
+        "item": "minecraft:arrow",
+        "amount": 8
+    }
 }
