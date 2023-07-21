@@ -1,14 +1,15 @@
 {
-    "name": "骑士",
-    "description": "你是一名强大的骑士。你习惯冲锋陷阵，随时准备做出牺牲。",
+    "name": "法师",
+    "description": "你是一位法师，总能从事物中创造新魔法。",
     "powers": [
-        "rpg_origins:durable",
-        "origins:more_exhaustion",
-        "rpg_origins:prepared",
-        "rpg_origins:trained"
+        "rpg_origins:fastcure",
+        "rpg_origins:not_the_strongest",
+        "rpg_origins:fireball",
+        "rpg_origins:water_walk",
+        "rpg_origins:unwieldly"
     ],
     "icon": {
-        "item": "minecraft:shield"
+        "item": "minecraft:enchanted_book"
     },
-    "impact": 1
+    "impact": 2
 }
