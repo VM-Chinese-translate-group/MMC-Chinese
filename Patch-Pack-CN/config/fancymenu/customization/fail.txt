@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_5346
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505262%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=345262%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = 请返回主页面，并重新进入世界。%n%如果你再次看到此页面，请重新启动游戏。%n%如果问题仍然存在，请点击主页面中的Discord按钮加入我们的Discord。
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 134
+  width = 487
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5ff7dfba-f021-4dc3-8153-b53cdc834f7e1675062590681
+  y = 111
+  alignment = left
+  height = 40
+}
+
