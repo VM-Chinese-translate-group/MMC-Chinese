@@ -1,5 +1,5 @@
 {
-  "dimension.spellbladenext.glassocean": "Glass Ocean",
+  "dimension.spellbladenext.glassocean": "玻璃海洋",
   "entity.spellbladenext.reaver": "Hexblade Magister",
   "entity.spellbladenext.magus": "Magus",
   "entity.spellbladenext.archmagus": "Archmagus",
@@ -12,7 +12,7 @@
   "death.attack.boneshatter.player": "%1$s's bones shattered",
   "block.spellbladenext.hex": "Magister's Hexblade",
   "item.spellbladenext.example_item": "Example Item",
-  "item.spellbladenext.spellblade": "Target",
+  "item.spellbladenext.spellblade": "目标",
   "item.spellbladenext.null": "Null",
   "item.spellbladenext.void": "Void",
   "item.spellbladenext.starforge": "Starforge",
