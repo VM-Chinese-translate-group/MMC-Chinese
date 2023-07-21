@@ -1,16 +1,11 @@
 {
-    "name": "Water Walk",
-    "description": "You've learned to harness the power of the heart of the sea, so while you hold it, you can walk on water.",
-    "condition": {
-        "type": "origins:equipped_item",
-        "equipment_slot": "mainhand",
-        "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "item": "minecraft:heart_of_the_sea"
-            }
-        }
+    "name": "不被注意更好",
+    "description": "你宁愿不被发现，你牺牲了健康来换取速度。你的最大生命值减少4。",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "multiply_total",
+        "value": "-0.2"
     },
-    "type": "origins:walk_on_fluid",
-    "fluid": "minecraft:water"
+    "update_health": true
 }
