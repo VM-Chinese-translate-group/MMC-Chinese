@@ -1,8 +1,6 @@
 {
-  //----Creative Tabs-----//
   "itemGroup.icarus.general": "Icarus",
 
-  //----Items----//
   "item.icarus.white_feathered_wings": "White Feathered Wings",
   "item.icarus.orange_feathered_wings": "Orange Feathered Wings",
   "item.icarus.magenta_feathered_wings": "Magenta Feathered Wings",
@@ -92,7 +90,6 @@
   "item.icarus.discords_wings": "Discord's Wings",
   "item.icarus.zanzas_wings": "Zanza's Wings",
 
-  //-----Origins-----//
   "origin.icarus.icarae.name": "Icarae",
   "origin.icarus.icarae.description": "Carnivorous bird people, Icarae fly low to the ground, weaving between and through obstacles to hunt their prey.",
   "power.icarus.wings.name": "Wings!",
@@ -100,7 +97,6 @@
   "power.icarus.hollow_bones.name": "Hollow Bones",
   "power.icarus.hollow_bones.description": "In order to fly, Icarae had to evolve a hollow bone structure, similar to birds.\n\nThis causes them to be much more vulnerable to damage.",
 
-  //-----ModMenu-----//
   "icarus.midnightconfig.title": "Icarus",
   "icarus.midnightconfig.canLoopDeLoop": "Can the player do loop-de-loops?",
   "icarus.midnightconfig.armourSlows": "Does armour slow the player down?",
