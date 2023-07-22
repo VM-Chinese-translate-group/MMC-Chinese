@@ -1,12 +1,12 @@
 {
-    "name": "寻觅",
+    "name": "歌唱",
     "description": "等等，你不该看这个！你好像在四处窥探，希望你能找到你要找的东西。",
     "hidden": true,
     "condition": {
         "type": "origins:using_item",
         "item_condition": {
             "type": "origins:nbt",
-            "nbt": "{instrument: \"minecraft:seek_goat_horn\"}"
+            "nbt": "{instrument: \"minecraft:sing_goat_horn\"}"
         }
     },
     "type": "origins:active_self",
@@ -16,18 +16,18 @@
         "radius_on_use": -1,
         "wait_time": 0,
         "effect": {
-            "effect": "minecraft:glowing",
-            "duration": 1250,
-            "amplifier": 0,
+            "effect": "minecraft:speed",
+            "duration": 750,
+            "amplifier": 1,
             "show_particles": true,
             "show_icon": true
         }
     },
-    "cooldown": 1000,
+    "cooldown": 1750,
     "hud_render": {
         "should_render": true,
-        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-        "bar_index": 0
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 16
     },
     "key": {
         "key": "key.use",
