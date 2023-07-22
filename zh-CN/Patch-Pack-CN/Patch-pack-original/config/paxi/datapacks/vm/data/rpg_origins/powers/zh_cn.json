@@ -1,24 +1,21 @@
 {
-    "name": "箭筒",
-    "description": "你总是有一个箭筒，以确保你有备用箭。你可以把任何东西放进去，但如果你死了，除了箭以外的东西都会掉落。",
-    "type": "origins:inventory",
-    "title": "Quiver",
-    "container_type": "hopper",
-    "drop_on_death": true,
-    "drop_on_death_filter": {
-        "inverted": true,
-        "type": "origins:ingredient",
-        "ingredient": [
-            {
-                "item": "minecraft:arrow"
-            },
-            {
-                "item": "minecraft:spectral_arrow"
-            },
-            {
-                "item": "minecraft:tipped_arrow"
-            }
-        ]
+    "name": "资源丰富",
+    "description": "只要您在制箭台附近制作，您就可以制作更多的箭。",
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:fletching_table"
+        },
+        "radius": 3,
+        "shape": "sphere",
+        "comparison": ">=",
+        "compare_to": 1
     },
-    "recoverable": true
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:arrow",
+    "result": {
+        "item": "minecraft:arrow",
+        "amount": 8
+    }
 }
