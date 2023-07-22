@@ -1,15 +1,17 @@
 {
-    "name": "法师",
-    "description": "你是一位法师，总能从事物中创造新魔法。",
+    "name": "盗贼",
+    "description": "你鬼鬼祟祟，行动迅速。随时准备从你不喜欢的人那里偷东西。",
     "powers": [
-        "rpg_origins:fastcure",
-        "rpg_origins:not_the_strongest",
-        "rpg_origins:fireball",
-        "rpg_origins:water_walk",
-        "rpg_origins:unwieldly"
+        "rpg_origins:speedy",
+        "rpg_origins:stealthy",
+        "origins:no_shield",
+        "rpg_origins:better_unnoticed",
+        "rpg_origins:uneasy_alliance",
+        "rpg_origins:thefty",
+        "rpg_origins:stealthy_damage"
     ],
     "icon": {
-        "item": "minecraft:enchanted_book"
+        "item": "minecraft:iron_sword"
     },
-    "impact": 2
+    "impact": 3
 }
