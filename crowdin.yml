@@ -1,5 +1,5 @@
 files:
-  - source: config/paxi/resourcepacks/vm-language/assets
+  - source: Patch-pack-original
     ignore:
       - simplyswords
     translation: '%original_path%/zh_cn.json'
