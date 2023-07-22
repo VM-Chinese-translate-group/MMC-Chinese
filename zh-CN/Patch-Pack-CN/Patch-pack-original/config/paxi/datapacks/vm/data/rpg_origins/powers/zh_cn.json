@@ -1,16 +1,17 @@
 {
-    "name": "选择目标",
-    "description": "遇强则强，遇弱则弱",
-    "hidden": true,
-    "type": "origins:modify_damage_dealt",
-    "target_condition": {
-        "type": "origins:attribute",
-        "attribute": "generic.max_health",
-        "comparison": "<",
-        "compare_to": 15
-    },
-    "modifier": {
-        "operation": "multiply_base",
-        "value": "-0.65"
+    "name": "速度",
+    "description": "您的速度快于正常状态。",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "speed",
+        "duration": 10000,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
     }
 }
