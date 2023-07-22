@@ -1,11 +1,9 @@
 {
-    "name": "音乐往事",
-    "description": "你过去演奏过羊角号，现在还有一个不久前演奏的山羊角。",
-    "type": "origins:starting_equipment",
-    "stack": {
-        "item": "minecraft:goat_horn",
-        "amount": 1,
-        "tag": "{instrument: \"minecraft:ponder_goat_horn\"}",
-        "slot": 0
-    }
+    "name": "无暇休息",
+    "description": "你只能在冲刺时自然恢复。",
+    "condition": {
+        "inverted": true,
+        "type": "origins:sprinting"
+    },
+    "type": "origins:disable_regen"
 }
