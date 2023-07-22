@@ -1,0 +1,18 @@
+{
+  "category": "bewitchment:creatures",
+  "name": "Leshon",
+  "icon": "bwplus:leshon_skull",
+  "entry_color": "3EA9ff",
+  "advancement": "bwplus:leshon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Leshon, an ancient Creature of magic, Found near $(l:bwplus:introduction/yew_trees)Yew Trees$() which are found on mountainous areas. Kill it to steal its skull and wear it to inherit its powers. But without a natural Yew tree nearby the skull will degrade. Right-click on a natural spawned Yew log to mark it as yours"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "bwplus:leshon",
+      "offset": 0.2
+    }
+  ]
+}
