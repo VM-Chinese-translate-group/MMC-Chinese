@@ -62,5 +62,5 @@
     "config.whisperwoods.spawning.spawn_costs": "Spawn Costs",
     "config.whisperwoods.hostile_chance": "Hostile Chance",
     "config.whisperwoods.moths_to_destroy_torch": "Moths to Destroy Torch",
-    "misc.whisperwoods.eggorder": "Spawn %s"
+    "misc.whisperwoods.eggorder": "生成%s"
 }
