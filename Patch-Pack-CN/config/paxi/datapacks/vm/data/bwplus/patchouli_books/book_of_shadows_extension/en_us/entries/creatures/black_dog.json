@@ -1,17 +1,17 @@
 {
-  "category": "bewitchment:creatures",
-  "name": "Black Dog",
-  "icon": "bwplus:black_dog_spawn_egg",
-  "entry_color": "3EA9ff",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Found near villages"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "bwplus:black_dog",
-      "scale": 0.6
-    }
-  ]
+    "category": "bewitchment:creatures",
+    "name": "book.bwplus.patchouli.text6",
+    "icon": "bwplus:black_dog_spawn_egg",
+    "entry_color": "3EA9ff",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.bwplus.patchouli.text7"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "bwplus:black_dog",
+            "scale": 0.6
+        }
+    ]
 }

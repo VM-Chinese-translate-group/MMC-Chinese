@@ -1,16 +1,16 @@
 {
-  "category": "bewitchment:creatures",
-  "name": "Cambion",
-  "icon": "bwplus:cambion_spawn_egg",
-  "entry_color": "3EA9ff",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Found near villages"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "bwplus:cambion"
-    }
-  ]
+    "category": "bewitchment:creatures",
+    "name": "book.bwplus.patchouli.text8",
+    "icon": "bwplus:cambion_spawn_egg",
+    "entry_color": "3EA9ff",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.bwplus.patchouli.text9"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "bwplus:cambion"
+        }
+    ]
 }

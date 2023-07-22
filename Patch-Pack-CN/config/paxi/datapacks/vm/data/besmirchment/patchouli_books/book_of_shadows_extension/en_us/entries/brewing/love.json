@@ -1,20 +1,20 @@
 {
-  "category": "bewitchment:brewing",
-  "name": "Love",
-  "icon": "minecraft:rose_bush",
-  "entry_color": "C15600",
-  "flag": "bsm_love_potion",
-  "advancement": "bewitchment:hidden_unlocks/altars",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "This potion affects animals and Villagers. While under this potion effect, the affected entity will be willing to breed, though normal breeding cooldowns still apply. Additionally, almost anything under this potion effect can, theoretically, be bound as $(l:bewitchment:rituals/binding)Familiar$()."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "title": "Love",
-      "item": "minecraft:rose_bush",
-      "text": "flooshed"
-    }
-  ]
+    "category": "bewitchment:brewing",
+    "name": "book.besmirchment.patchouli.text2",
+    "icon": "minecraft:rose_bush",
+    "entry_color": "C15600",
+    "flag": "bsm_love_potion",
+    "advancement": "bewitchment:hidden_unlocks/altars",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.besmirchment.patchouli.text3"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.besmirchment.patchouli.text4",
+            "item": "minecraft:rose_bush",
+            "text": "book.besmirchment.patchouli.text5"
+        }
+    ]
 }

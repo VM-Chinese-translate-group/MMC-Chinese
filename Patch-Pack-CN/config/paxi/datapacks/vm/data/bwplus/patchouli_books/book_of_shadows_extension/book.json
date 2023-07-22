@@ -1,4 +1,4 @@
 {
-  "extend": "bewitchment:book_of_shadows",
-  "name": "bwplus"
+    "extend": "bewitchment:book_of_shadows",
+    "name": "book.bwplus.patchouli.text1"
 }
