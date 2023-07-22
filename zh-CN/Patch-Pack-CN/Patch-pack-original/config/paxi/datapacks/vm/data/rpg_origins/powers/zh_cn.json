@@ -1,6 +1,6 @@
 {
-    "name": "潜行伤害",
-    "description": "隐身状态的伤害效果",
+    "name": "销声匿迹",
+    "description": "潜行的隐身效果",
     "hidden": true,
     "condition": {
         "type": "origins:sneaking"
@@ -8,11 +8,11 @@
     "type": "origins:stacking_status_effect",
     "min_stacks": 1,
     "max_stacks": 1,
-    "duration_per_stack": 60,
+    "duration_per_stack": 1,
     "tick_rate": 10,
     "effect": {
-        "effect": "minecraft:weakness",
-        "duration": 60,
+        "effect": "minecraft:invisiblity",
+        "duration": 1,
         "amplifier": 255,
         "show_particles": false,
         "show_icon": false
