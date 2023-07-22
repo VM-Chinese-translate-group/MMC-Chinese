@@ -1,9 +1,11 @@
 {
-    "name": "射击冠军",
-    "description": "你是训练有素的弓箭和弩箭专家，使用它们造成的伤害更高。",
-    "type": "origins:modify_projectile_damage",
-    "modifier": {
-        "operation": "multiply_base",
-        "value": "1.25"
+    "name": "音乐往事",
+    "description": "你过去演奏过羊角号，现在还有一个不久前演奏的山羊角。",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:goat_horn",
+        "amount": 1,
+        "tag": "{instrument: \"minecraft:ponder_goat_horn\"}",
+        "slot": 0
     }
 }
