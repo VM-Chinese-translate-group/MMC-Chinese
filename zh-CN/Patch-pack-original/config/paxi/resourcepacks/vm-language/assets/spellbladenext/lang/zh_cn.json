@@ -125,7 +125,7 @@
   "spell.spellbladenext.whirlwind.name": "旋风",
   "spell.spellbladenext.whirlwind.description": "发动回旋击，对附近敌人造成三倍近战伤害。击中多个目标会受到伤害惩罚。法术强化的20%将倍强化到攻击上。按住shift以停止移动。",
   "spell.spellbladenext.dualwield_whirlwind.name": "利刃回旋",
-  "spell.spellbladenext.dualwield_whirlwind.description": "Spin, dealing one handed (1.5x) or dual wielding (variable) melee dps to nearby enemies. Penalty for hitting multiple enemies. 0.2x modifier for spell on hit effects. Shift to stop moving.",
+  "spell.spellbladenext.dualwield_whirlwind.description": "发动回旋击，对附近敌人造成(1.5倍)或双持(可变)的近战伤害。击中多个目标会受到伤害惩罚。法术强化的20%将倍强化到攻击上。按住shift以停止移动。",
   "spell.spellbladenext.whirlwind_polearm.name": "利刃回旋",
   "spell.spellbladenext.whirlwind_polearm.description": "Spin, dealing 3x melee dps to nearby enemies. Penalty for hitting multiple enemies. 0.2x modifier for spell on hit effects. Shift to stop moving.",
   "spell.spellbladenext.cyclone.name": "Cyclone",
