@@ -33,7 +33,7 @@
   "wetlands.gear_golem_hurt": "铜傀儡受伤",
   "wetlands.fume_release": "毒气释放",
   "wetlands.soil_release": "毒气释放",
-  "death.attack.silt": "%1$s在淤泥里溺毙",
+  "death.attack.silt": "%1$s在淤泥里溺死",
   "death.attack.fume_trap": "%1$s因吸入毒气死亡",
   "itemGroup.wetlands.wetlands": "湿地之下",
   "modmenu.descriptionTranslation.wetlands": "通过加入新的结构，方块，物品和生物来加强沼泽的氛围感",
@@ -45,9 +45,9 @@
   "advancement.wetlands.unearing.title": "倾听？",
   "advancements.wetlands.findswamp.description": "古老沼泽的呻吟低语…",
   "advancements.wetlands.willothewisp.description": "用瓶子抓住一个鬼火",
-  "advancements.wetlands.killgolem.description": "找到并杀死远古齿轮傀儡",
-  "advancements.wetlands.davidsling.description": "用一根箭杀死远古齿轮傀儡，并正中它的眼睛",
-  "advancements.wetlands.rebirth.description": "搭建一个铜傀儡",
+  "advancements.wetlands.killgolem.description": "找到并击杀远古齿轮傀儡",
+  "advancements.wetlands.davidsling.description": "用箭射杀远古齿轮傀儡，并射中它的眼睛",
+  "advancements.wetlands.rebirth.description": "建造一个铜傀儡",
   "advancement.wetlands.unearing.description": "切下铜傀儡的耳朵"
 }
 
