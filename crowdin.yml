@@ -3,5 +3,5 @@ files:
     ignore:
       - Patch-pack-original/config/paxi/datapacks
     translation: '%original_path%/zh_cn.json'
-  - source: Patch-pack-original/config/paxi/datapacks/vm/data
+  - source: Patch-pack-original/config/paxi/datapacks/vm/data/rpg_origins
     translation: '%original_path%/%original_path%/%original_file_name%'
