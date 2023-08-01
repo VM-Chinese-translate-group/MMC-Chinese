@@ -2,4 +2,4 @@ files:
   - source: Patch-pack-original/config/paxi/resourcepacks/vm-language/assets
     translation: '%original_path%/zh_cn.json'
   - source: Patch-pack-original/config/paxi/datapacks/vm/data
-    translation: '%original_path%/%original_file_name%'
+    translation: '%original_path%/%original_path%/%original_file_name%'
