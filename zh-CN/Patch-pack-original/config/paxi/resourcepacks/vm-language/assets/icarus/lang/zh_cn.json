@@ -86,7 +86,7 @@
   "origin.icarus.icarae.name": "飞翼族",
   "origin.icarus.icarae.description": "食肉的鸟类人，飞翼族飞得很低，可以在障碍物之间穿梭，捕食猎物。",
   "power.icarus.wings.name": "翅膀!",
-  "power.icarus.wings.description": "多亏了你的翅膀，你才能在低空飞行。\n\n当然，你需要轻盈才能飞得快，所以厚重的盔甲会大大减慢你的速度。",
+  "power.icarus.wings.description": "多亏了你的翅膀，你才能在低空飞行。\n\n当然，你需要保持轻盈才能飞得快，所以厚重的盔甲会大大减慢你的速度。",
   "power.icarus.hollow_bones.name": "中空骨骼",
   "power.icarus.hollow_bones.description": "为了飞行，飞翼族进化出一种类似鸟类的中空骨骼结构。\n\n这使得它们更容易受伤。",
   "icarus.midnightconfig.title": "伊卡洛斯之翼",
