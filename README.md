@@ -8,6 +8,7 @@ CurseForge|Modrinth|Modpack Version|状态
 
 # 仓库统计数据
 [Crowdin](https://crowdin.com/project/mmc-chinese)
+[![Crowdin进度](https://badges.crowdin.net/mmc-chinese/localized.svg)](https://crowdin.com/project/mmc-chinese)
 
 # 关于我们
   [![Website](https://shields.io/website?up_message=vmct-cn.top&url=http://vmct-cn.top&label=Website)](http://vmct-cn.top)
