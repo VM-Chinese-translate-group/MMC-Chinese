@@ -94,7 +94,7 @@
   "book.besmirchment.patchouli.text37": "最后，巫妖这一生物被认定为亡灵，这也导致了大部分人类会逃离它们，同时，它们弱于$(l:bewitchment:intro/silver)银$()。当它们被银器击杀，它们会被送回它们命匣的所在地，并消耗其中的两个灵魂。$(br2)$(o)当巫妖处于极端危险的情况，多次复活也无法脱身，它们也可以选择主动返回命匣所在地，这一操作需要按下shift。$(br2)巫妖化也是一种灵魂上的转换，所以不能被已经转换为其他族群的巫师主持仪式$()",
   "book.besmirchment.patchouli.text38": "恶魔契据",
   "book.besmirchment.patchouli.text39": "当你手持这份契据，说明你已经杀死了$(l:besmirchment:creatures/beelzebub)别西卜$()……额，我是说也许。$(br)这份契据可以通过 $(l:bewitchment:tools/taglock)巫媒$()绑定恶魔。$(br)对应的 $(l:bewitchment:creatures/demon)恶魔$()将会听从绑定它的巫师的命令。",
-  "book.besmirchment.patchouli.text40": "驯服$(l:bewitchment:creatures/demon)恶魔$()的行为类似于驯服狼，它们会在战斗中祝你一臂之力$(br)也可以被命令待命和跟随，同时,它们依然会为你提供交易。$(br)最后，如果想要治愈它们，你可以给它们喂点蛋糕吃。",
+  "book.besmirchment.patchouli.text40": "驯服$(l:bewitchment:creatures/demon)恶魔$()的行为类似于驯服狼，它们会在战斗中祝你一臂之力$(br)也可以被命令待命和跟随，同时它们依然会为你提供交易。$(br)最后，如果想要治愈它们，你可以给它们喂点蛋糕吃。",
   "book.besmirchment.patchouli.text41": "炫彩棺材",
   "book.besmirchment.patchouli.text42": "$(item)炫彩棺材$()是一口在巫师界绝无仅有的$(l:bewitchment:tools/coffins)棺材$()，通过染料的力量，它将会在黑夜中闪耀出独特的色彩。",
   "book.besmirchment.patchouli.text43": "最后，RGB棺材真的太酷啦！",
