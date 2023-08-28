@@ -1,6 +1,6 @@
 {
     "name": "资源丰富",
-    "description": "Whenever you are near a fletching table, you can craft more arrows.",
+    "description": "只要处在制箭台附近，每次便能合成更多的箭。",
     "condition": {
         "type": "origins:block_in_radius",
         "block_condition": {
