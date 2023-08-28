@@ -1,6 +1,6 @@
 {
     "name": "箭筒",
-    "description": "You always have a quiver to make sure you have back-up arrows. You can put anything in it, but if you die, everything except arrows will be left.",
+    "description": "你总是有一个箭筒，以确保你有备用箭。你可以把任何东西放进去，但如果你死了，除了箭以外的东西都会掉落。",
     "type": "origins:inventory",
     "title": "Quiver",
     "container_type": "hopper",
