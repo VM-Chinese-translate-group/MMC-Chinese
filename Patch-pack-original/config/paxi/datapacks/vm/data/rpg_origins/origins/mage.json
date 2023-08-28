@@ -3,7 +3,7 @@
     "description": "You're a mage who can always find the magic in things.",
     "powers": [
         "rpg_origins:fastcure",
-        "rpg_origins:not_the_strongest",
+        "rpg_origins:untrained",
         "rpg_origins:fireball",
         "rpg_origins:water_walk",
         "rpg_origins:unwieldly"
