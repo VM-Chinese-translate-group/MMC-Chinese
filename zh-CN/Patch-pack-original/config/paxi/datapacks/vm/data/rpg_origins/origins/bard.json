@@ -1,6 +1,6 @@
 {
     "name": "吟游诗人",
-    "description": "You're an all around music player. You can use your soical skills to help anyone you desire.",
+    "description": "你是一名音乐家，精通尘世间一切乐曲。你可以使用你的旋律来帮助任何人。",
     "powers": [
         "rpg_origins:horn_effects/ponder",
         "rpg_origins:horn_effects/sing",
