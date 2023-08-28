@@ -1,6 +1,6 @@
 {
-    "name": "Untrained",
-    "description": "You were never tained in combat, so you have 3 less hearts.",
+    "name": "生疏",
+    "description": "你从未接受过战斗训练，所以你的生命值减少6。",
     "type": "origins:attribute",
     "modifier": {
         "attribute": "minecraft:generic.max_health",
