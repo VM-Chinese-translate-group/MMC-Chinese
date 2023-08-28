@@ -1,6 +1,6 @@
 {
-    "name": "Charismatic",
-    "description": "You're great with people, so much infact, that they heal more and move faster when around you.",
+    "name": "魅力四射",
+    "description": "你十分善于与人相处，因此，当其他人在你附近时，他们的生命恢复速度与移动速度都将变快。",
     "type": "origins:toggle",
     "active_by_default": true,
     "key": {
