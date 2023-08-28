@@ -1,6 +1,6 @@
 {
-    "name": "One With the World",
-    "description": "Whatever is going on in the world will affect you. Whenever you're exposed to the sun you'll slowly revert the effects of insomnia.",
+    "name": "同世界合一",
+    "description": "世界上发生的任何事情都会影响到你。只要你沐浴在阳光下，便能从失眠效果中慢慢地恢复。",
     "condition": {
         "type": "origins:exposed_to_sun"
     },
