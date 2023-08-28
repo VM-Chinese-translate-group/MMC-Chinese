@@ -1,6 +1,6 @@
 {
     "name": "经验不足",
-    "description": "由于只接受过使用弓箭的训练，你几乎不能使用任何非射弹的东西。",
+    "description": "Due to never using a sword, you can barley use anything that isn't a projectile.",
     "type": "origins:modify_damage_dealt",
     "damage_condition": {
         "inverted": true,
