@@ -49,7 +49,7 @@
   "professions.command.top.position": "%s. %s，等级%s，经验%s",
   "professions.command.reload.success": "已重新加载配置。",
   "professions.command.setlevel.success": "将%s的%s等级设置为%s",
-  "professions.block.cooldown": "This position is on cooldown, wait %s more second(s) before trying again.",
+  "professions.block.cooldown": "此位置正在冷却，请在%s秒后重试。",
   "professions.gui.join": "加入",
   "professions.gui.leave": "退出",
   "professions.gui.info": "信息",
