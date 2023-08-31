@@ -35,7 +35,7 @@
     "block.whisperwoods.wisp_lantern_purple": "魔紫色鬼火灯笼",
     "block.whisperwoods.hand_of_fate": "命运之手",
     "block.whisperwoods.hand_of_fate.tooltip.shiftdown": "按住SHIFT以显示配方",
-    "block.whisperwoods.hand_of_fate.tooltip.recipehint": "用下列物品其中之一右键点击命运之手",
+    "block.whisperwoods.hand_of_fate.tooltip.recipehint": "用下列物品其中之一右击命运之手",
     "block.whisperwoods.hand_of_fate.tooltip.recipe_format": "%2$s：%2$s",
     "block.whisperwoods.hand_of_fate.tooltip.recipe_format_hint": "%1$s：%2$s（%3$s）",
     "block.whisperwoods.hand_of_fate.tooltip.recipe.wisp": "召唤鬼火",
