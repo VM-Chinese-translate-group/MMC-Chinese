@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: "circle"
 	filename: "oddities"
 	group: "799D8360B26E9792"
@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "4E33D80DA11F2414"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,687 +27,849 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.1.subtitle}"
-			tasks: [{
-				id: "0405A07D7EBAB67C"
-				item: "tradingpost:trading_post"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.1.title}"
+			subtitle: "{ftbquests.chapter.oddities.quests0.subtitle}"
+			tasks: [
+				{
+					id: "0405A07D7EBAB67C"
+					item: "tradingpost:trading_post"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests0.title}"
 			x: -3.5d
 			y: -3.5d
 		}
 		{
 			id: "5F0FC5A5035E29B0"
-			rewards: [{
-				count: 8
-				id: "66DC1A3116737C3F"
-				item: "adorn:stone_torch"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.2.subtitle}"
-			tasks: [{
-				id: "351D2EAFAE0F9CB7"
-				item: {
-					Count: 1b
-					id: "naturescompass:naturescompass"
-					tag: { }
+			rewards: [
+				{
+					count: 8
+					id: "66DC1A3116737C3F"
+					item: "adorn:stone_torch"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "{chapter.17.quest.2.title}"
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests1.subtitle}"
+			tasks: [
+				{
+					id: "351D2EAFAE0F9CB7"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests1.title}"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			id: "6B470812378B8254"
-			rewards: [{
-				id: "6819762A22074A86"
-				item: {
-					Count: 1b
-					id: "minecraft:splash_potion"
-					tag: {
-						Potion: "goblintraders:powerful_instant_health"
+			rewards: [
+				{
+					id: "6819762A22074A86"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "goblintraders:powerful_instant_health"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.3.subtitle}"
-			tasks: [{
-				id: "408DBB64EE534461"
-				item: "adorn:trading_station"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.3.title}"
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests2.subtitle}"
+			tasks: [
+				{
+					id: "408DBB64EE534461"
+					item: "adorn:trading_station"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests2.title}"
 			x: -3.5d
 			y: -2.0d
 		}
 		{
 			id: "1137432ADCFEC509"
-			rewards: [{
-				count: 5
-				id: "7F559D73B16FD397"
-				item: "biomemakeover:cooked_crab"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.4.subtitle}"
-			tasks: [{
-				id: "74E388214A93A9E7"
-				item: "biomemakeover:altar"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.4.title}"
+			rewards: [
+				{
+					count: 5
+					id: "7F559D73B16FD397"
+					item: "biomemakeover:cooked_crab"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests3.subtitle}"
+			tasks: [
+				{
+					id: "74E388214A93A9E7"
+					item: "biomemakeover:altar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests3.title}"
 			x: -0.5d
 			y: -2.0d
 		}
 		{
 			id: "22D9C9224D94E1AF"
-			rewards: [{
-				id: "72DB1D79337C0884"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.5.subtitle}"
-			tasks: [{
-				id: "620815F85F6D6C46"
-				item: "quartzelv:smooth_quartz_elevator"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.5.title}"
+			rewards: [
+				{
+					id: "72DB1D79337C0884"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests4.subtitle}"
+			tasks: [
+				{
+					id: "620815F85F6D6C46"
+					item: "quartzelv:smooth_quartz_elevator"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests4.title}"
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			id: "554FCDBDC9485FA2"
-			rewards: [{
-				id: "12583035D8981827"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.17.quest.6.subtitle}"
-			tasks: [{
-				id: "1B1C89CF79BF35BC"
-				item: "fwaystones:waystone"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.6.title}"
+			rewards: [
+				{
+					id: "12583035D8981827"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests5.subtitle}"
+			tasks: [
+				{
+					id: "1B1C89CF79BF35BC"
+					item: "fwaystones:waystone"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests5.title}"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			id: "1CE4F2F108792335"
-			rewards: [{
-				id: "2E59C933B2EE00DB"
-				item: "twilightforest:fiery_ingot"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.7.subtitle}"
-			tasks: [{
-				id: "1F966B37AD4A878A"
-				item: "twilightforest:uncrafting_table"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.7.title}"
+			rewards: [
+				{
+					id: "2E59C933B2EE00DB"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests6.subtitle}"
+			tasks: [
+				{
+					id: "1F966B37AD4A878A"
+					item: "twilightforest:uncrafting_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests6.title}"
 			x: 1.0d
 			y: -3.5d
 		}
 		{
 			id: "1E65308E968AF323"
-			rewards: [{
-				count: 3
-				id: "78C6465E25E01517"
-				item: "minecraft:melon_seeds"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.8.subtitle}"
-			tasks: [{
-				id: "135BBBD3F433C606"
-				item: "seasonsextras:season_calendar"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.8.title}"
+			rewards: [
+				{
+					count: 3
+					id: "78C6465E25E01517"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests7.subtitle}"
+			tasks: [
+				{
+					id: "135BBBD3F433C606"
+					item: "seasonsextras:season_calendar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests7.title}"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			id: "461958821F94D6F8"
-			rewards: [{
-				count: 8
-				id: "6099B2E26A33A8C1"
-				item: "culturaldelights:cucumber_seeds"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.9.subtitle}"
-			tasks: [{
-				id: "74F74C268842AB73"
-				item: "seasonsextras:white_greenhouse_glass"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.9.title}"
+			rewards: [
+				{
+					count: 8
+					id: "6099B2E26A33A8C1"
+					item: "culturaldelights:cucumber_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests8.subtitle}"
+			tasks: [
+				{
+					id: "74F74C268842AB73"
+					item: "seasonsextras:white_greenhouse_glass"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests8.title}"
 			x: 1.0d
 			y: -0.5d
 		}
 		{
 			id: "12965C7AB98FA9C6"
-			rewards: [{
-				id: "4FD53411FE953111"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "{chapter.17.quest.10.subtitle}"
-			tasks: [{
-				id: "266B22E4299C23A6"
-				item: "voidtotem:totem_of_void_undying"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.10.title}"
+			rewards: [
+				{
+					id: "4FD53411FE953111"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests9.subtitle}"
+			tasks: [
+				{
+					id: "266B22E4299C23A6"
+					item: "voidtotem:totem_of_void_undying"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests9.title}"
 			x: -3.5d
 			y: 2.5d
 		}
 		{
 			id: "7236C066E7C894B3"
-			rewards: [{
-				id: "156E76792F358643"
-				item: "supplementaries:blackboard"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.11.subtitle}"
-			tasks: [{
-				id: "3171E8D9D224BCAA"
-				item: "supplementaries:soap"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.11.title}"
+			rewards: [
+				{
+					id: "156E76792F358643"
+					item: "supplementaries:blackboard"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests10.subtitle}"
+			tasks: [
+				{
+					id: "3171E8D9D224BCAA"
+					item: "supplementaries:soap"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests10.title}"
 			x: -2.0d
 			y: 5.5d
 		}
 		{
 			id: "69A55664BC35DC41"
-			rewards: [{
-				count: 3
-				id: "532056C698E7304F"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.12.subtitle}"
-			tasks: [{
-				icon: "minecraft:hay_block"
-				id: "6325FB8B13996FBF"
-				observe_type: 5
-				timer: 0L
-				to_observe: "strawgolem:strawgolem"
-				type: "observation"
-			}]
-			title: "{chapter.17.quest.12.title}"
+			rewards: [
+				{
+					count: 3
+					id: "532056C698E7304F"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests11.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:hay_block"
+					id: "6325FB8B13996FBF"
+					observe_type: 5
+					timer: 0L
+					to_observe: "strawgolem:strawgolem"
+					type: "observation"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests11.title}"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			id: "0B23AB3C41A686EA"
-			rewards: [{
-				id: "0FAF1947C5D1B541"
-				item: "farmersdelight:noodle_soup"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.13.subtitle}"
-			tasks: [{
-				id: "435BC24FB0CA106A"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.13.title}"
+			rewards: [
+				{
+					id: "0FAF1947C5D1B541"
+					item: "farmersdelight:noodle_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests12.subtitle}"
+			tasks: [
+				{
+					id: "435BC24FB0CA106A"
+					item: "magnumtorch:diamond_magnum_torch"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests12.title}"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			id: "3851BFEF1D86D474"
-			rewards: [{
-				id: "35B791031C361D60"
-				item: "supplementaries:relayer"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.14.subtitle}"
-			tasks: [{
-				id: "6261485F53C82B8D"
-				item: "supplementaries:cog_block"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.14.title}"
+			rewards: [
+				{
+					id: "35B791031C361D60"
+					item: "supplementaries:relayer"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests13.subtitle}"
+			tasks: [
+				{
+					id: "6261485F53C82B8D"
+					item: "supplementaries:cog_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests13.title}"
 			x: 2.5d
 			y: 1.0d
 		}
 		{
 			id: "024898B93AB09569"
-			rewards: [{
-				id: "04F8BE51A2A388FD"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "{chapter.17.quest.15.subtitle}"
-			tasks: [{
-				id: "1C81D0D0F9E83159"
-				item: "fwaystones:pocket_wormhole"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.15.title}"
+			rewards: [
+				{
+					id: "04F8BE51A2A388FD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests14.subtitle}"
+			tasks: [
+				{
+					id: "1C81D0D0F9E83159"
+					item: "fwaystones:pocket_wormhole"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests14.title}"
 			x: 2.5d
 			y: 2.5d
 		}
 		{
 			id: "42080A0A9B1F1889"
-			rewards: [{
-				id: "2B3A0580C239E102"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			subtitle: "{chapter.17.quest.16.subtitle}"
-			tasks: [{
-				id: "1793F59502AD538A"
-				item: "dummmmmmy:target_dummy"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.16.title}"
+			rewards: [
+				{
+					id: "2B3A0580C239E102"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests15.subtitle}"
+			tasks: [
+				{
+					id: "1793F59502AD538A"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests15.title}"
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			id: "0FE658EB75F6C66A"
-			rewards: [{
-				count: 3
-				id: "0CCDDBCCB5233AAC"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.17.subtitle}"
-			tasks: [{
-				id: "4765BDEC3CB0CD80"
-				item: "adventurez:piglin_flag_block"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.17.title}"
+			rewards: [
+				{
+					count: 3
+					id: "0CCDDBCCB5233AAC"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests16.subtitle}"
+			tasks: [
+				{
+					id: "4765BDEC3CB0CD80"
+					item: "adventurez:piglin_flag_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests16.title}"
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			id: "267E023B6485792D"
-			rewards: [{
-				id: "370B0BADC32164F5"
-				item: "mythicupgrades:ametrine_apple"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.18.subtitle}"
-			tasks: [{
-				id: "574CD47849751164"
-				item: "things:hardening_catalyst"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.18.title}"
+			rewards: [
+				{
+					id: "370B0BADC32164F5"
+					item: "mythicupgrades:ametrine_apple"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests17.subtitle}"
+			tasks: [
+				{
+					id: "574CD47849751164"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests17.title}"
 			x: -2.0d
 			y: -0.5d
 		}
 		{
 			id: "06270F36EC449E11"
-			rewards: [{
-				id: "0AD7FD96C06B0F10"
-				item: {
-					Count: 1b
-					id: "bountiful:decree"
-					tag: {
-						"bountiful:decree_data": "{}"
+			rewards: [
+				{
+					id: "0AD7FD96C06B0F10"
+					item: {
+						Count: 1b
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{}"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.19.subtitle}"
-			tasks: [{
-				id: "362D391C1B2F51F9"
-				item: "bountiful:bountyboard"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.19.title}"
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests18.subtitle}"
+			tasks: [
+				{
+					id: "362D391C1B2F51F9"
+					item: "bountiful:bountyboard"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests18.title}"
 			x: -2.0d
 			y: -3.5d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.oddities.quests19.description0}"
+				""
+				"{ftbquests.chapter.oddities.quests19.description2}"
+				""
+				"{ftbquests.chapter.oddities.quests19.description4}"
+			]
 			id: "5AFB6DF49711402E"
-			rewards: [{
-				id: "5EE037645A013600"
-				item: {
-					Count: 1b
-					id: "minecraft:wooden_sword"
-					tag: {
-						Damage: 49
-						Enchantments: [{
-							id: "looting"
-							lvl: 1
-						}]
-						HideFlags: 2
-						display: {
-							Lore: ["[{\"text\":\"This looks very... disenchantable.\",\"italic\":false}]"]
-							Name: "[{\"text\":\"Well-worn Sword\",\"italic\":false}]"
+			rewards: [
+				{
+					id: "5EE037645A013600"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 49
+							Enchantments: [
+								{
+									id: "looting"
+									lvl: 1
+								}
+							]
+							HideFlags: 2
+							display: {
+								Lore: ["[{\"text\":\"This looks very... disenchantable.\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Well-worn Sword\",\"italic\":false}]"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.20.subtitle}"
-			tasks: [{
-				id: "6C468AC884051B97"
-				item: "minecraft:grindstone"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.20.title}"
+				{
+					id: "1EC7CBC131D18D6C"
+					item: "zenith:scrap_tome"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FDB8434828FD955"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:anvil"
+						}
+					}
+					title: "{ftbquests.chapter.oddities.quests19.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests19.title}"
 			x: 2.5d
 			y: -2.0d
 		}
 		{
 			id: "7EB6A2560F7BFCF7"
-			rewards: [{
-				count: 3
-				id: "7AB8D34F3512123C"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.21.subtitle}"
-			tasks: [{
-				id: "7EFE37C54551C427"
-				item: "barteringstation:bartering_station"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.21.title}"
+			rewards: [
+				{
+					count: 3
+					id: "7AB8D34F3512123C"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests20.subtitle}"
+			tasks: [
+				{
+					id: "7EFE37C54551C427"
+					item: "barteringstation:bartering_station"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests20.title}"
 			x: -0.5d
 			y: -3.5d
 		}
 		{
 			id: "24FA08E13512B7D1"
-			rewards: [{
-				id: "1E96930F461E2B01"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			subtitle: "{chapter.17.quest.22.subtitle}"
-			tasks: [{
-				id: "09F0017452924E6B"
-				item: "supplementaries:cage"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.22.title}"
+			rewards: [
+				{
+					id: "1E96930F461E2B01"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests21.subtitle}"
+			tasks: [
+				{
+					id: "09F0017452924E6B"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests21.title}"
 			x: -3.5d
 			y: -0.5d
 		}
 		{
 			id: "20DCF40C6CA4E4FF"
-			rewards: [{
-				id: "0B709EE0454857FC"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			subtitle: "{chapter.17.quest.23.subtitle}"
-			tasks: [{
-				id: "76038A2F0CF78FC0"
-				item: "supplementaries:jar"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.23.title}"
+			rewards: [
+				{
+					id: "0B709EE0454857FC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests22.subtitle}"
+			tasks: [
+				{
+					id: "76038A2F0CF78FC0"
+					item: "supplementaries:jar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests22.title}"
 			x: -3.5d
 			y: 1.0d
 		}
 		{
 			id: "65920CA327682C42"
-			rewards: [{
-				id: "06576B20B3D7C9F4"
-				item: "xps:handbook"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.24.subtitle}"
-			tasks: [{
-				id: "46E435D2F956A22B"
-				item: "xps:xp_dust"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.24.title}"
+			rewards: [
+				{
+					id: "06576B20B3D7C9F4"
+					item: "xps:handbook"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests23.subtitle}"
+			tasks: [
+				{
+					id: "46E435D2F956A22B"
+					item: "xps:xp_dust"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests23.title}"
 			x: 1.0d
 			y: 2.5d
 		}
 		{
 			id: "788E198E48FCF3FD"
-			rewards: [{
-				count: 16
-				id: "6FC3CB80AA9531E0"
-				item: "betterend:umbrella_tree_planks"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.25.subtitle}"
-			tasks: [{
-				id: "67BE44F22823B3C7"
-				item: "charm:woodcutter"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.25.title}"
+			rewards: [
+				{
+					count: 16
+					id: "6FC3CB80AA9531E0"
+					item: "betterend:umbrella_tree_planks"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests24.subtitle}"
+			tasks: [
+				{
+					id: "67BE44F22823B3C7"
+					item: "charm:woodcutter"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests24.title}"
 			x: 4.0d
 			y: -3.5d
 		}
 		{
 			id: "147D9946619AAD0E"
-			rewards: [{
-				id: "47C8826CD8EEC57D"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.17.quest.26.subtitle}"
-			tasks: [{
-				id: "26B8E558C5F9292F"
-				item: {
-					Count: 1b
-					id: "archon:druid_boots"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "47C8826CD8EEC57D"
+					type: "xp_levels"
+					xp_levels: 5
 				}
-				type: "item"
-			}]
-			title: "{chapter.17.quest.26.title}"
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests25.subtitle}"
+			tasks: [
+				{
+					id: "26B8E558C5F9292F"
+					item: {
+						Count: 1b
+						id: "archon:druid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests25.title}"
 			x: -0.5d
 			y: 2.5d
 		}
 		{
 			id: "07EE7789B880D2B8"
-			rewards: [{
-				id: "1F23B23F03F18378"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{chapter.17.quest.27.subtitle}"
-			tasks: [{
-				id: "3F9D725ABFB792AE"
-				item: "things:ender_pouch"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.27.title}"
+			rewards: [
+				{
+					id: "1F23B23F03F18378"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests26.subtitle}"
+			tasks: [
+				{
+					id: "3F9D725ABFB792AE"
+					item: "things:ender_pouch"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests26.title}"
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			id: "28974276564555ED"
-			rewards: [{
-				count: 5
-				id: "374DB3108D392AAF"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.28.subtitle}"
-			tasks: [{
-				id: "40F1E3F7A57CB147"
-				item: "villagersplus:oceanographer_table"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.28.title}"
+			rewards: [
+				{
+					count: 5
+					id: "374DB3108D392AAF"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests27.subtitle}"
+			tasks: [
+				{
+					id: "40F1E3F7A57CB147"
+					item: "villagersplus:oceanographer_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests27.title}"
 			x: 4.0d
 			y: -0.5d
 		}
 		{
 			id: "5FEBDC31107660B3"
-			rewards: [{
-				count: 5
-				id: "707168219626AB24"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.29.subtitle}"
-			tasks: [{
-				id: "0ED1781D7A65D371"
-				item: "villagersplus:alchemist_table"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.29.title}"
+			rewards: [
+				{
+					count: 5
+					id: "707168219626AB24"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests28.subtitle}"
+			tasks: [
+				{
+					id: "0ED1781D7A65D371"
+					item: "villagersplus:alchemist_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests28.title}"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			id: "0BC7C35295AD4A71"
-			rewards: [{
-				count: 5
-				id: "76A86E43C4464B88"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.30.subtitle}"
-			tasks: [{
-				id: "2EE0823E5C389558"
-				item: "villagersplus:occultist_table"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.30.title}"
+			rewards: [
+				{
+					count: 5
+					id: "76A86E43C4464B88"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests29.subtitle}"
+			tasks: [
+				{
+					id: "2EE0823E5C389558"
+					item: "villagersplus:occultist_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests29.title}"
 			x: 4.0d
 			y: 2.5d
 		}
 		{
 			id: "29DB0E117A09B132"
-			rewards: [{
-				id: "2F768ED8368A54E5"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "{chapter.17.quest.31.subtitle}"
-			tasks: [{
-				id: "0F876F4D5EE4EDF2"
-				item: "bosses_of_mass_destruction:charged_ender_pearl"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.31.title}"
+			rewards: [
+				{
+					id: "2F768ED8368A54E5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests30.subtitle}"
+			tasks: [
+				{
+					id: "0F876F4D5EE4EDF2"
+					item: "bosses_of_mass_destruction:charged_ender_pearl"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests30.title}"
 			x: 1.0d
 			y: 4.0d
 		}
 		{
 			id: "4FB5786C1574EF9F"
-			rewards: [{
-				id: "722E10678584FF96"
-				item: "bewitchment:black_coffin"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.32.subtitle}"
-			tasks: [{
-				id: "1C766C5F6146FFEB"
-				item: {
-					Count: 1b
-					id: "bewitchment:death_protection_poppet"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "722E10678584FF96"
+					item: "bewitchment:black_coffin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "{chapter.17.quest.32.title}"
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests31.subtitle}"
+			tasks: [
+				{
+					id: "1C766C5F6146FFEB"
+					item: {
+						Count: 1b
+						id: "bewitchment:death_protection_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests31.title}"
 			x: -2.0d
 			y: 2.5d
 		}
 		{
 			id: "56CFF1EB3641D051"
-			rewards: [{
-				count: 3
-				id: "243E670271B8914B"
-				item: "minecraft:fermented_spider_eye"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.33.subtitle}"
-			tasks: [{
-				id: "56E7D0666C92DF8C"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "trinkets:hand/charm"
-					}
+			rewards: [
+				{
+					count: 3
+					id: "243E670271B8914B"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
 				}
-				title: "{chapter.17.quest.33.task.1.title}"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.33.title}"
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests32.subtitle}"
+			tasks: [
+				{
+					id: "56E7D0666C92DF8C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "trinkets:hand/charm"
+						}
+					}
+					title: "{ftbquests.chapter.oddities.quests32.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests32.title}"
 			x: -3.5d
 			y: 4.0d
 		}
 		{
 			id: "76FF463436665FB9"
-			rewards: [{
-				id: "0AD90E61EF760C89"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			subtitle: "{chapter.17.quest.34.subtitle}"
-			tasks: [{
-				id: "4776525216009D16"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "travelersbackpack:sleeping_bags"
-					}
+			rewards: [
+				{
+					id: "0AD90E61EF760C89"
+					type: "xp_levels"
+					xp_levels: 3
 				}
-				title: "{chapter.17.quest.34.task.1.title}"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.34.title}"
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests33.subtitle}"
+			tasks: [
+				{
+					id: "4776525216009D16"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "travelersbackpack:sleeping_bags"
+						}
+					}
+					title: "{ftbquests.chapter.oddities.quests33.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests33.title}"
 			x: -2.0d
 			y: 1.0d
 		}
 		{
 			id: "126A979F765226E8"
-			rewards: [{
-				id: "792F3483706A6252"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			subtitle: "{chapter.17.quest.35.subtitle}"
-			tasks: [{
-				id: "4CC956A565168243"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "c:bundles"
-					}
+			rewards: [
+				{
+					id: "792F3483706A6252"
+					type: "xp_levels"
+					xp_levels: 3
 				}
-				title: "{chapter.17.quest.35.task.1.title}"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.35.title}"
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests34.subtitle}"
+			tasks: [
+				{
+					id: "4CC956A565168243"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:bundles"
+						}
+					}
+					title: "{ftbquests.chapter.oddities.quests34.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests34.title}"
 			x: 2.5d
 			y: 4.0d
 		}
 		{
 			id: "0DAD5FD9A2BFC54D"
-			rewards: [{
-				id: "6C5998B2562B424B"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			subtitle: "{chapter.17.quest.36.subtitle}"
-			tasks: [{
-				id: "33C69B9C0AB1C1BF"
-				item: "gofish:wooden_crate"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.36.title}"
+			rewards: [
+				{
+					id: "6C5998B2562B424B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests35.subtitle}"
+			tasks: [
+				{
+					id: "33C69B9C0AB1C1BF"
+					item: "gofish:wooden_crate"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests35.title}"
 			x: 4.0d
 			y: 4.0d
 		}
@@ -726,69 +888,118 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.17.quest.37.subtitle}"
-			tasks: [{
-				id: "6204EAE7E3EFD3B5"
-				item: "animal_feeding_trough:feeding_trough"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.37.title}"
+			subtitle: "{ftbquests.chapter.oddities.quests36.subtitle}"
+			tasks: [
+				{
+					id: "6204EAE7E3EFD3B5"
+					item: "animal_feeding_trough:feeding_trough"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests36.title}"
 			x: -3.5d
 			y: 5.5d
 		}
 		{
 			id: "1325EB37EACF5E77"
-			rewards: [{
-				id: "14C26FA6E6B745FB"
-				item: "minecraft:saddle"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.38.subtitle}"
-			tasks: [{
-				id: "60B483E7A5BCB4BF"
-				item: "horseexpert:monocle"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.38.title}"
+			rewards: [
+				{
+					id: "14C26FA6E6B745FB"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests37.subtitle}"
+			tasks: [
+				{
+					id: "60B483E7A5BCB4BF"
+					item: "horseexpert:monocle"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests37.title}"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			id: "313A0066D31C3F58"
-			rewards: [{
-				count: 2
-				id: "51537D555F1350C8"
-				item: "minecraft:powder_snow_bucket"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.39.subtitle}"
-			tasks: [{
-				id: "5FC2E387D549EF7D"
-				item: "seasonsextras:chiller"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.39.title}"
+			rewards: [
+				{
+					count: 2
+					id: "51537D555F1350C8"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests38.subtitle}"
+			tasks: [
+				{
+					id: "5FC2E387D549EF7D"
+					item: "seasonsextras:chiller"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests38.title}"
 			x: 2.5d
 			y: 5.5d
 		}
 		{
 			id: "2F6904167869A3C6"
-			rewards: [{
-				count: 4
-				id: "74CB7359659F4DC1"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
-			subtitle: "{chapter.17.quest.40.subtitle}"
-			tasks: [{
-				id: "0CC3190E4E736745"
-				item: "seasonsextras:heater"
-				type: "item"
-			}]
-			title: "{chapter.17.quest.40.title}"
+			rewards: [
+				{
+					count: 4
+					id: "74CB7359659F4DC1"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests39.subtitle}"
+			tasks: [
+				{
+					id: "0CC3190E4E736745"
+					item: "seasonsextras:heater"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests39.title}"
 			x: 4.0d
 			y: 5.5d
 		}
+		{
+			id: "4AE0F77E11A498FF"
+			subtitle: "{ftbquests.chapter.oddities.quests40.subtitle}"
+			tasks: [
+				{
+					id: "3B443473BFAD7D35"
+					item: "things:bater_wucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests40.title}"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "0E27D2D0DA258DA8"
+			rewards: [
+				{
+					id: "00B48803449C2EA8"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.oddities.quests41.subtitle}"
+			tasks: [
+				{
+					id: "641F4554178DFAB3"
+					item: "immersive_weathering:pond_water"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.oddities.quests41.title}"
+			x: 1.0d
+			y: 5.5d
+		}
 	]
-	title: "{chapter.17.title}"
+	title: "{ftbquests.chapter.oddities.title}"
 }

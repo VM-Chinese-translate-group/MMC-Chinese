@@ -1,0 +1,965 @@
+{
+	default_hide_dependency_lines: "false"
+	default_quest_shape: ""
+	filename: "bosses_and_weapons"
+	group: "3C993182D3E6754B"
+	icon: "soulsweapons:lord_soul_purple"
+	id: "1B81F1561C1CF9E0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C0669C5EC941DBB"]
+			id: "39CF638ACE63478F"
+			rewards: [
+				{
+					id: "0957FDD5EFCADD8D"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "zenith:strong_haste"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests0.subtitle}"
+			tasks: [
+				{
+					id: "240026450CDE2410"
+					item: "soulsweapons:boss_compass"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests0.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "01E128C665552DD7"
+			rewards: [
+				{
+					count: 20
+					id: "4EF3E38AA9E4535A"
+					item: "soulsweapons:silver_bullet"
+					type: "item"
+				}
+				{
+					id: "1FB00F0B16BBC818"
+					item: "soulsweapons:verglas"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests1.subtitle}"
+			tasks: [
+				{
+					id: "13F5D0CB21D16086"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "soulsweapons:lord_soul"
+						}
+					}
+					title: "{ftbquests.chapter.bosses_and_weapons.quests1.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests1.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C0669C5EC941DBB"]
+			id: "27F6D54C2210CA52"
+			rewards: [
+				{
+					id: "66AC1D4AED77941D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests2.subtitle}"
+			tasks: [
+				{
+					id: "47F77F226C02F54E"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests2.title}"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27F6D54C2210CA52"]
+			id: "6A39B55CE628ECE2"
+			rewards: [
+				{
+					id: "397675BCC125391B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests3.subtitle}"
+			tasks: [
+				{
+					id: "5CD155E2E0B7A1FE"
+					item: "soulsweapons:altar_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests3.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A39B55CE628ECE2"]
+			dependency_requirement: "all_started"
+			id: "22C2FD8EAE43FB89"
+			rewards: [
+				{
+					id: "6BD48FA2772BF252"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests4.subtitle}"
+			tasks: [
+				{
+					entity: "soulsweapons:returning_knight"
+					icon: {
+						Count: 1b
+						id: "soulsweapons:nightfall"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1A957E4159D3E614"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests4.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests4.title}"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"22C2FD8EAE43FB89"
+				"53A1CCC6480034C0"
+			]
+			dependency_requirement: "all_started"
+			id: "4B982F15CDB09BF4"
+			rewards: [
+				{
+					id: "08DB0AC65ED85585"
+					item: "soulsweapons:withered_demon_heart"
+					type: "item"
+				}
+				{
+					id: "42A7C307F6BA0E92"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "zenith:miners_fervor"
+									lvl: 5s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests5.subtitle}"
+			tasks: [
+				{
+					advancement: "soulsweapons:moonknight"
+					criterion: ""
+					id: "0DC7A5C82B298029"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests5.tasks0.title}"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39CF638ACE63478F"]
+			hide_dependency_lines: "false"
+			id: "30400106DEA17130"
+			rewards: [
+				{
+					id: "7941B7B7151D4C95"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests6.subtitle}"
+			tasks: [
+				{
+					entity: "soulsweapons:draugr_boss"
+					icon: {
+						Count: 1b
+						id: "soulsweapons:draugr"
+						tag: {
+							Damage: 0
+							night: 1b
+						}
+					}
+					id: "4310A3CC7A3BACCC"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests6.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests6.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["{ftbquests.chapter.bosses_and_weapons.quests7.description}"]
+			id: "6C0669C5EC941DBB"
+			rewards: [
+				{
+					id: "0C8E1FA48BAE9273"
+					item: "soulsweapons:moonstone"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "790EB7B5C1BC0D2C"
+					item: "soulsweapons:verglas"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests7.subtitle}"
+			tasks: [
+				{
+					id: "0D043929AF71A29C"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests7.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30400106DEA17130"]
+			icon: "soulsweapons:essence_of_eventide"
+			id: "53A1CCC6480034C0"
+			rewards: [
+				{
+					id: "6D29A02CE917683C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests8.subtitle}"
+			tasks: [
+				{
+					entity: "soulsweapons:night_shade"
+					icon: "soulsweapons:essence_of_eventide"
+					id: "7A080EBA622B6A41"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests8.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests8.title}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["39CF638ACE63478F"]
+			hide_dependency_lines: "true"
+			id: "6B35EC3035B4FAFA"
+			rewards: [
+				{
+					id: "6BA23D45A31548AB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "61DD2C954E4C0EF0"
+					item: "soulsweapons:crimson_ingot"
+					type: "item"
+				}
+			]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests9.subtitle}"
+			tasks: [
+				{
+					entity: "soulsweapons:accursed_lord_boss"
+					icon: {
+						Count: 1b
+						id: "soulsweapons:darkin_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1B5A98D064C1B811"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests9.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests9.title}"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79C7E2ABFC3DF7F0"]
+			id: "31B95A33D9609FC3"
+			rewards: [
+				{
+					count: 8
+					id: "2B282156DB9B62E5"
+					item: "adventurez:gilded_stone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "64619092A38B29F6"
+					item: "minecraft:chiseled_polished_blackstone"
+					type: "item"
+				}
+				{
+					id: "74CF217D7EDA67AA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests10.subtitle}"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					icon: "bosses_of_mass_destruction:blazing_eye"
+					id: "746282A3B3D28D48"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests10.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests10.title}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31B95A33D9609FC3"]
+			id: "0F05E245DA7DB65E"
+			rewards: [
+				{
+					id: "2B3D6056353652DC"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
+				}
+				{
+					id: "5437C3484EFD58E6"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "6BE15140337D1042"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests11.subtitle}"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: "bosses_of_mass_destruction:obsidian_heart"
+					id: "4497666E1477F3A1"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests11.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests11.title}"
+			x: 2.5d
+			y: -3.125d
+		}
+		{
+			dependencies: ["30F23509C24A8CB6"]
+			id: "29224AFD40DA7A0D"
+			rewards: [
+				{
+					id: "72C4CE99785B4725"
+					item: "brewinandchewin:withering_dross"
+					type: "item"
+				}
+				{
+					id: "0BE074AD933C430B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests12.subtitle}"
+			tasks: [
+				{
+					entity: "soulsweapons:chaos_monarch"
+					icon: {
+						Count: 1b
+						id: "soulsweapons:chaos_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "60DC590C08CD216B"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests12.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0669C5EC941DBB"]
+			id: "30F23509C24A8CB6"
+			rewards: [
+				{
+					id: "738406607EB1B0DC"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests13.subtitle}"
+			tasks: [
+				{
+					id: "33E6C9F12AB42DAA"
+					item: "soulsweapons:blackstone_pedestal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests13.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76B15C700D2BB341"]
+			id: "3595FCF2F3DEB6CB"
+			rewards: [
+				{
+					id: "2471D452EDC77C87"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1E0B6FD16D49D2E9"
+					item: {
+						Count: 1b
+						id: "archon:thunder_bolt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests14.subtitle}"
+			tasks: [
+				{
+					entity: "archon:ayla"
+					icon: "archon:angelic_star"
+					id: "242AFC4C6557B78F"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests14.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests14.title}"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76B15C700D2BB341"]
+			id: "33C8AF83481C3529"
+			rewards: [
+				{
+					id: "0AB15929B3658399"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "43B14D19751A9737"
+					item: {
+						Count: 1b
+						id: "archon:terrain_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests15.subtitle}"
+			tasks: [
+				{
+					entity: "archon:tar"
+					icon: "archon:terranite_stone"
+					id: "60F8A2A3FE43210E"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests15.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests15.title}"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06AF04F2405AE9A8"]
+			id: "2582F6F9BE50EF70"
+			rewards: [
+				{
+					count: 3
+					id: "2D79992C88583D2F"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "132354613AFFB05D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests16.subtitle}"
+			tasks: [
+				{
+					entity: "graveyard:lich"
+					icon: "graveyard:altar"
+					id: "40A23D67738CB169"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests16.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests16.title}"
+			x: 0.0d
+			y: -3.125d
+		}
+		{
+			dependencies: ["11135C25A2835AD2"]
+			id: "79C7E2ABFC3DF7F0"
+			rewards: [
+				{
+					id: "7259A03D11A437C8"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "3B98DE1E8E67D025"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					id: "3D27F49872B2EC67"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests17.subtitle}"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					id: "41E87F046E71A71E"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests17.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests17.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "4185CF276F11864E"
+			rewards: [
+				{
+					id: "456D6D12D4014D8B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "261A429E76CEDF4A"
+					item: {
+						Count: 1b
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests18.subtitle}"
+			tasks: [
+				{
+					id: "250EB21C6C5F9E8D"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "1263AAE64D3F9F3D"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "1A3F0291BAA1425E"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests18.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4185CF276F11864E"]
+			id: "06AF04F2405AE9A8"
+			rewards: [
+				{
+					id: "500E5AE3A74ED56C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests19.subtitle}"
+			tasks: [
+				{
+					id: "6DA217A617437747"
+					item: {
+						Count: 1b
+						id: "graveyard:vial_of_blood"
+						tag: {
+							Blood: 0.8000001f
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests19.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "11135C25A2835AD2"
+			rewards: [
+				{
+					id: "7E0E3D4EB2C49A54"
+					item: {
+						Count: 1b
+						id: "bosses_of_mass_destruction:earthdive_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F4C3F3EE8F65524"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "18112123D8669CEF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests20.subtitle}"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					icon: "bosses_of_mass_destruction:void_thorn"
+					id: "5170EB0C4DE2AA23"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests20.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests20.title}"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "2D9BABD18A5069B3"
+			rewards: [
+				{
+					count: 3
+					id: "2625298F32AD1748"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests21.subtitle}"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "46683B77F53C5E99"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests21.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests21.title}"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CB32883B16317F9"]
+			id: "414A54675FD19A12"
+			rewards: [
+				{
+					count: 3
+					id: "20767740136C5E21"
+					item: "spellbladenext:runegleaming_ingot"
+					type: "item"
+				}
+				{
+					id: "0AC9C195B8876300"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests22.subtitle}"
+			tasks: [
+				{
+					id: "0541B3723DC695E8"
+					item: "spellbladenext:prismaticeffigy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests22.title}"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76B15C700D2BB341"]
+			id: "73DBC312E1F55CDF"
+			rewards: [
+				{
+					id: "5293742665FC7721"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7D864EBD6B62BDAC"
+					item: {
+						Count: 1b
+						id: "archon:heat_ranger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests23.subtitle}"
+			tasks: [
+				{
+					entity: "archon:inigo"
+					icon: "archon:charred_eye"
+					id: "230A283099107B2F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests23.title}"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76B15C700D2BB341"]
+			id: "75F7816DC41BB8F6"
+			rewards: [
+				{
+					id: "0AB3E1D44628FDCF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "46816B529B22B2E8"
+					item: {
+						Count: 1b
+						id: "archon:frost_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests24.subtitle}"
+			tasks: [
+				{
+					entity: "archon:leven"
+					icon: "archon:wave_crystal"
+					id: "04B6D522F1271B24"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests24.title}"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F77CADBA0059E1F"]
+			id: "4D49534F3472D49C"
+			rewards: [
+				{
+					id: "50BE4822E4C1DF69"
+					item: {
+						Count: 1b
+						id: "zenith:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:strong_warding"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CDEFBD48D8A238D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "711B2DC85495D248"
+					item: {
+						Count: 1b
+						id: "spellbladenext:void"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests25.subtitle}"
+			tasks: [
+				{
+					entity: "spellbladenext:archmagus"
+					icon: {
+						Count: 1b
+						id: "spellbladenext:starforge"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6358739A235DD8A4"
+					title: "{ftbquests.chapter.bosses_and_weapons.quests25.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.5d
+			y: -3.125d
+		}
+		{
+			id: "76B15C700D2BB341"
+			rewards: [
+				{
+					count: 4
+					id: "508EEA879BAA32B4"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests26.subtitle}"
+			tasks: [
+				{
+					id: "231FD829CEEA50D1"
+					item: "archon:summoning_pedestal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests26.title}"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["414A54675FD19A12"]
+			id: "1F77CADBA0059E1F"
+			rewards: [
+				{
+					id: "3072F1925B9F4D86"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2C8EB05A14A7B727"
+					item: {
+						Count: 1b
+						id: "spellbladenext:magus_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests27.subtitle}"
+			tasks: [
+				{
+					id: "02F1C1B18C83BBB5"
+					item: "spellbladenext:hexblade"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_weapons.quests27.title}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			icon: "spellbladenext:offering"
+			id: "5CB32883B16317F9"
+			rewards: [
+				{
+					id: "7D1DDB077DB3E772"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:warding"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.bosses_and_weapons.quests28.subtitle}"
+			tasks: [
+				{
+					icon: "spellbladenext:offering"
+					id: "0F7B0B26AF7A5E13"
+					observe_type: 5
+					timer: 0L
+					title: "{ftbquests.chapter.bosses_and_weapons.quests28.tasks0.title}"
+					to_observe: "spellbladenext:reaver"
+					type: "observation"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.bosses_and_weapons.title}"
+}

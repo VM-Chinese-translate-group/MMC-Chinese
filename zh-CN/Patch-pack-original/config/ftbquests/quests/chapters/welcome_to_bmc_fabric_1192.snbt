@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "welcome_to_bmc_fabric_1192"
 	group: ""
@@ -15,38 +15,62 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{chapter.1.quest.1.description.1}"]
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests0.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests0.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests0.description4}"
+			]
 			icon: {
 				Count: 1b
 				id: "minecraft:book"
 				tag: {
-					Enchantments: [{
-						id: "aqua_affinity"
-						lvl: 1
-					}]
+					Enchantments: [
+						{
+							id: "aqua_affinity"
+							lvl: 1
+						}
+					]
 				}
 			}
 			id: "6A52090D6BC064D7"
-			rewards: [{
-				count: 3
-				id: "57BF2196D5016192"
-				item: "minecraft:bread"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "57BF2196D5016192"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
 			size: 2.0d
-			subtitle: "{chapter.1.quest.1.subtitle}"
-			tasks: [{
-				id: "1B0800437C68C43A"
-				title: "{chapter.1.quest.1.task.1.title}"
-				type: "checkmark"
-			}]
-			title: "{chapter.1.quest.1.title}"
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests0.subtitle}"
+			tasks: [
+				{
+					id: "1B0800437C68C43A"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests0.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests0.title}"
 			x: 1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
-			description: ["{chapter.1.quest.2.description.1}"]
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.description4}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.description6}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.description8}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.description10}"
+			]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -55,34 +79,42 @@
 				}
 			}
 			id: "2958CA7FA6FD3E4F"
-			invisible: true
+			invisible: "true"
 			invisible_until_tasks: 1
-			rewards: [{
-				id: "649C9C6CB3EB241E"
-				item: "twilightforest:charm_of_life_1"
-				type: "item"
-			}]
-			subtitle: "{chapter.1.quest.2.subtitle}"
+			rewards: [
+				{
+					id: "649C9C6CB3EB241E"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.subtitle}"
 			tasks: [
 				{
 					id: "0DD3C1416FC34FA1"
-					title: "{chapter.1.quest.2.task.1.title}"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.tasks0.title}"
 					type: "checkmark"
 				}
 				{
-					disable_toast: true
+					disable_toast: "true"
 					id: "380A99374727D6D8"
 					item: "minecraft:bread"
 					type: "item"
 				}
 			]
-			title: "{chapter.1.quest.2.title}"
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests1.title}"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
-			description: ["{chapter.1.quest.3.description.1}"]
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests2.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests2.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests2.description4}"
+			]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -91,35 +123,67 @@
 				}
 			}
 			id: "175099CF5696829E"
-			invisible: true
+			invisible: "true"
 			invisible_until_tasks: 1
-			rewards: [{
-				count: 3
-				id: "34B145F40A6C1F3B"
-				item: "minecraft:torch"
-				type: "item"
-			}]
-			subtitle: "{chapter.1.quest.3.subtitle}"
+			rewards: [
+				{
+					count: 3
+					id: "34B145F40A6C1F3B"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests2.subtitle}"
 			tasks: [
 				{
 					id: "21428FE253D34D4E"
-					title: "{chapter.1.quest.3.task.1.title}"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests2.tasks0.title}"
 					type: "checkmark"
 				}
 				{
-					disable_toast: true
+					disable_toast: "true"
 					id: "08EDA62F0B406C49"
 					item: "minecraft:bread"
 					type: "item"
 				}
 			]
-			title: "{chapter.1.quest.3.title}"
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests2.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
-			description: ["{chapter.1.quest.4.description.1}"]
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description4}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description6}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description8}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description10}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description12}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description14}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description16}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description18}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description20}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description22}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description24}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description26}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.description28}"
+			]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -128,41 +192,56 @@
 				}
 			}
 			id: "2165E80C52C79992"
-			invisible: true
+			invisible: "true"
 			invisible_until_tasks: 1
-			rewards: [{
-				id: "1F8F06B03E3FCB30"
-				item: {
-					Count: 1b
-					id: "wizards:wand_novice"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "1F8F06B03E3FCB30"
+					item: {
+						Count: 1b
+						id: "wizards:wand_novice"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			subtitle: "{chapter.1.quest.4.subtitle}"
+			]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.subtitle}"
 			tasks: [
 				{
 					id: "6A64112F92690241"
-					title: "{chapter.1.quest.4.task.1.title}"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.tasks0.title}"
 					type: "checkmark"
 				}
 				{
-					disable_toast: true
+					disable_toast: "true"
 					id: "2B23CADA52D45FA0"
 					item: "minecraft:bread"
 					type: "item"
 				}
 			]
-			title: "{chapter.1.quest.4.title}"
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests3.title}"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2958CA7FA6FD3E4F"]
-			description: ["{chapter.1.quest.5.description.1}"]
-			hide: true
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.description0}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.description1}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.description4}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.description6}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.description8}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.description10}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.description11}"
+			]
+			hide: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -171,46 +250,73 @@
 				}
 			}
 			id: "139DAA6E8CF4267A"
-			rewards: [{
-				id: "1AE5746200C26691"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			subtitle: "{chapter.1.quest.5.subtitle}"
-			tasks: [{
-				id: "74C85348A8B837EB"
-				title: "{chapter.1.quest.5.task.1.title}"
-				type: "checkmark"
-			}]
-			title: "{chapter.1.quest.5.title}"
+			rewards: [
+				{
+					id: "1AE5746200C26691"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.subtitle}"
+			tasks: [
+				{
+					id: "74C85348A8B837EB"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests4.title}"
 			x: 0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2165E80C52C79992"]
-			description: ["{chapter.1.quest.6.description.1}"]
-			hide: true
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests5.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests5.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests5.description4}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests5.description6}"
+			]
+			hide: "true"
 			icon: "strawgolem:straw_hat"
 			id: "4B757CA4C6D4A6EB"
-			rewards: [{
-				id: "3C8CEF0A99595A10"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			subtitle: "{chapter.1.quest.6.subtitle}"
-			tasks: [{
-				id: "419AE170FE0B6A4B"
-				title: "{chapter.1.quest.6.task.1.title}"
-				type: "checkmark"
-			}]
-			title: "{chapter.1.quest.6.title}"
+			rewards: [
+				{
+					id: "3C8CEF0A99595A10"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests5.subtitle}"
+			tasks: [
+				{
+					id: "419AE170FE0B6A4B"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests5.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests5.title}"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["41A362D23E3CC2C6"]
-			description: ["{chapter.1.quest.7.description.1}"]
-			hide: true
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.description4}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.description6}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.description8}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.description9}"
+			]
+			hide: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -236,11 +342,6 @@
 					type: "item"
 				}
 				{
-					id: "190BB0741BC3B873"
-					item: "zenith:book"
-					type: "item"
-				}
-				{
 					id: "3462D5D6E9AB1156"
 					item: {
 						Count: 1b
@@ -259,13 +360,49 @@
 					item: "seasonsextras:seasonal_compendium"
 					type: "item"
 				}
+				{
+					id: "06C7B40D5203309A"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mythicmobs:mythical_guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3631078E0D5277CD"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mythicmounts:mythical_mounts"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69F36920E9B9B445"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
 			]
-			subtitle: "{chapter.1.quest.7.subtitle}"
-			tasks: [{
-				id: "3B2CC7DEE30E3AB8"
-				title: "{chapter.1.quest.7.task.1.title}"
-				type: "checkmark"
-			}]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.subtitle}"
+			tasks: [
+				{
+					id: "3B2CC7DEE30E3AB8"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests6.title}"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -274,8 +411,18 @@
 				"139DAA6E8CF4267A"
 				"4B757CA4C6D4A6EB"
 			]
-			description: ["{chapter.1.quest.8.description.1}"]
-			hide: true
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests7.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests7.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests7.description4}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests7.description6}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests7.description8}"
+			]
+			hide: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -284,26 +431,51 @@
 				}
 			}
 			id: "41A362D23E3CC2C6"
-			rewards: [{
-				id: "2FDE7266581037B7"
-				item: "dehydration:leather_flask"
-				type: "item"
-			}]
-			subtitle: "{chapter.1.quest.8.subtitle}"
-			tasks: [{
-				id: "2EB663E422AEB389"
-				title: "{chapter.1.quest.8.task.1.title}"
-				type: "checkmark"
-			}]
-			title: "{chapter.1.quest.8.title}"
+			rewards: [
+				{
+					id: "2FDE7266581037B7"
+					item: "dehydration:leather_flask"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests7.subtitle}"
+			tasks: [
+				{
+					id: "2EB663E422AEB389"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests7.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests7.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["6A4CB4700F0082C6"]
-			description: ["{chapter.1.quest.9.description.1}"]
-			hide: true
-			hide_dependency_lines: true
+			dependencies: ["41A362D23E3CC2C6"]
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description2}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description4}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description6}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description8}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description9}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description10}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description11}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description12}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description13}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description15}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description17}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.description19}"
+			]
+			hide: "true"
+			hide_dependency_lines: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -312,23 +484,75 @@
 				}
 			}
 			id: "1272952B43DFA218"
-			rewards: [{
-				count: 3
-				id: "3C507F5DAEB57D2F"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
-			size: 1.2d
-			subtitle: "{chapter.1.quest.9.subtitle}"
-			tasks: [{
-				id: "64F70B833581A586"
-				title: "{chapter.1.quest.9.task.1.title}"
-				type: "checkmark"
-			}]
-			title: "{chapter.1.quest.9.title}"
-			x: 1.5d
-			y: -4.210714285714289d
+			rewards: [
+				{
+					count: 3
+					id: "3C507F5DAEB57D2F"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.subtitle}"
+			tasks: [
+				{
+					id: "64F70B833581A586"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests8.title}"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41A362D23E3CC2C6"]
+			description: [
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description0}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description2}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description3}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description4}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description5}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description7}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description8}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description9}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description11}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description12}"
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description13}"
+				""
+				"{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.description15}"
+			]
+			hide: "true"
+			hide_dependency_lines: "true"
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "379DABC87CCEC09A"
+			rewards: [
+				{
+					count: 3
+					id: "70471328AD7DB8ED"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.subtitle}"
+			tasks: [
+				{
+					id: "64E74CDAB34C194A"
+					title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.quests9.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: -3.0d
 		}
 	]
-	title: "{chapter.1.title}"
+	title: "{ftbquests.chapter.welcome_to_bmc_fabric_1192.title}"
 }

@@ -1,15 +1,15 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "ethe_bumblezone"
 	group: "59C90AA1B128306B"
 	icon: "the_bumblezone:glistering_honey_crystal"
 	id: "5E108F66F3EF0B77"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{chapter.11.quest.1.description.1}"]
+			description: ["{ftbquests.chapter.ethe_bumblezone.quests0.description}"]
 			icon: "minecraft:bee_nest"
 			id: "5669A0DAB45F2C62"
 			rewards: [
@@ -29,15 +29,17 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{chapter.11.quest.1.subtitle}"
-			tasks: [{
-				dimension: "the_bumblezone:the_bumblezone"
-				icon: "minecraft:bee_nest"
-				id: "23EB799CA31143EC"
-				title: "{chapter.11.quest.1.task.1.title}"
-				type: "dimension"
-			}]
-			title: "{chapter.11.quest.1.title}"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quests0.subtitle}"
+			tasks: [
+				{
+					dimension: "the_bumblezone:the_bumblezone"
+					icon: "minecraft:bee_nest"
+					id: "23EB799CA31143EC"
+					title: "{ftbquests.chapter.ethe_bumblezone.quests0.tasks0.title}"
+					type: "dimension"
+				}
+			]
+			title: "{ftbquests.chapter.ethe_bumblezone.quests0.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -57,22 +59,36 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.11.quest.2.subtitle}"
-			tasks: [{
-				icon: "the_bumblezone:bee_queen_spawn_egg"
-				id: "3BB5DC62B7B44E05"
-				observe_type: 5
-				timer: 0L
-				to_observe: "the_bumblezone:bee_queen"
-				type: "observation"
-			}]
-			title: "{chapter.11.quest.2.title}"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quests1.subtitle}"
+			tasks: [
+				{
+					icon: "the_bumblezone:bee_queen_spawn_egg"
+					id: "3BB5DC62B7B44E05"
+					observe_type: 5
+					timer: 0L
+					to_observe: "the_bumblezone:bee_queen"
+					type: "observation"
+				}
+			]
+			title: "{ftbquests.chapter.ethe_bumblezone.quests1.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5669A0DAB45F2C62"]
-			description: ["{chapter.11.quest.3.description.1}"]
+			description: [
+				"{ftbquests.chapter.ethe_bumblezone.quests2.description0}"
+				""
+				"{ftbquests.chapter.ethe_bumblezone.quests2.description2}"
+				""
+				"{ftbquests.chapter.ethe_bumblezone.quests2.description4}"
+				""
+				"{ftbquests.chapter.ethe_bumblezone.quests2.description6}"
+				""
+				"{ftbquests.chapter.ethe_bumblezone.quests2.description8}"
+				""
+				"{ftbquests.chapter.ethe_bumblezone.quests2.description10}"
+			]
 			id: "1085588F956F6781"
 			rewards: [
 				{
@@ -86,13 +102,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "{chapter.11.quest.3.subtitle}"
-			tasks: [{
-				id: "076801A54434CD21"
-				item: "the_bumblezone:pollen_puff"
-				type: "item"
-			}]
-			title: "{chapter.11.quest.3.title}"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quests2.subtitle}"
+			tasks: [
+				{
+					id: "076801A54434CD21"
+					item: "the_bumblezone:pollen_puff"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ethe_bumblezone.quests2.title}"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -111,65 +129,75 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "{chapter.11.quest.4.subtitle}"
-			tasks: [{
-				icon: "minecraft:flower_pot"
-				id: "2E69A5082DE69808"
-				structure: "the_bumblezone:hanging_garden"
-				title: "{chapter.11.quest.4.task.1.title}"
-				type: "structure"
-			}]
-			title: "{chapter.11.quest.4.title}"
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quests3.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:flower_pot"
+					id: "2E69A5082DE69808"
+					structure: "the_bumblezone:hanging_garden"
+					title: "{ftbquests.chapter.ethe_bumblezone.quests3.tasks0.title}"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.ethe_bumblezone.quests3.title}"
 			x: 1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5669A0DAB45F2C62"]
 			id: "369D2467D02270EC"
-			rewards: [{
-				id: "63D53EA85F1CF09A"
-				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
-				type: "item"
-			}]
-			subtitle: "{chapter.11.quest.5.subtitle}"
-			tasks: [{
-				icon: "the_bumblezone:crystalline_flower"
-				id: "553AEA9E43960A9D"
-				observe_type: 0
-				timer: 0L
-				title: "{chapter.11.quest.5.task.1.title}"
-				to_observe: "the_bumblezone:crystalline_flower"
-				type: "observation"
-			}]
-			title: "{chapter.11.quest.5.title}"
+			rewards: [
+				{
+					id: "63D53EA85F1CF09A"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quests4.subtitle}"
+			tasks: [
+				{
+					icon: "the_bumblezone:crystalline_flower"
+					id: "553AEA9E43960A9D"
+					observe_type: 0
+					timer: 0L
+					title: "{ftbquests.chapter.ethe_bumblezone.quests4.tasks0.title}"
+					to_observe: "the_bumblezone:crystalline_flower"
+					type: "observation"
+				}
+			]
+			title: "{ftbquests.chapter.ethe_bumblezone.quests4.title}"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5669A0DAB45F2C62"]
 			id: "6164202DAC398029"
-			rewards: [{
-				count: 2
-				id: "2B885ADD87CCAAE4"
-				item: "the_bumblezone:honey_crystal_shards"
-				type: "item"
-			}]
-			subtitle: "{chapter.11.quest.6.subtitle}"
-			tasks: [{
-				id: "51A5D0D2C39A836E"
-				item: {
-					Count: 1b
-					id: "the_bumblezone:honey_crystal_shield"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 2
+					id: "2B885ADD87CCAAE4"
+					item: "the_bumblezone:honey_crystal_shards"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "{chapter.11.quest.6.title}"
+			]
+			subtitle: "{ftbquests.chapter.ethe_bumblezone.quests5.subtitle}"
+			tasks: [
+				{
+					id: "51A5D0D2C39A836E"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_crystal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ethe_bumblezone.quests5.title}"
 			x: -1.0d
 			y: -1.5d
 		}
 	]
-	title: "{chapter.11.title}"
+	title: "{ftbquests.chapter.ethe_bumblezone.title}"
 }
